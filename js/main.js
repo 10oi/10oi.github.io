@@ -327,14 +327,14 @@ window.onload = interval = setInterval(
     function () {
         input1.focus();
         clearInterval(interval);
-    }, 100);
+    }, 200);
 
 window.onload = setInterval(
     function () {
         if (input1.value != "" && input2.value != "" && input3.value != "") {
             calc();
         }
-    }, 500);
+    }, 200);
 
 window.onload = interval1 = setInterval(
     function () {
