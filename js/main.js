@@ -40,7 +40,7 @@ function calc() {
 
 
 
-    
+
     // 直接加
     var yiyi = String(parseInt(input1.value) + 1).charAt(String(parseInt(input1.value) + 1).length - 1);
     var erer = String(parseInt(input2.value) + 1).charAt(String(parseInt(input2.value) + 1).length - 1);
@@ -77,10 +77,6 @@ function calc() {
     var yiyi8 = String(parseInt(yiyi7) + 1).charAt(String(parseInt(yiyi7) + 1).length - 1);
     var erer8 = String(parseInt(erer7) + 1).charAt(String(parseInt(erer7) + 1).length - 1);
     var sansan8 = String(parseInt(sansan7) + 1).charAt(String(parseInt(sansan7) + 1).length - 1);
-
-
-
-
 
     input55.value = yiyi + erer + sansan;
     input66.value = yiyi1 + erer1 + sansan1;
@@ -152,7 +148,6 @@ function calc() {
     var input11 = document.getElementById("input11");
     var input12 = document.getElementById("input12");
     var input13 = document.getElementById("input13");
-    var input14 = document.getElementById("input14");
 
     var yi = String(parseInt(num1) + 1).charAt(String(parseInt(num1) + 1).length - 1);
     var er = String(parseInt(num2) + 1).charAt(String(parseInt(num2) + 1).length - 1);
@@ -189,8 +184,6 @@ function calc() {
     var yi8 = String(parseInt(yi7) + 1).charAt(String(parseInt(yi7) + 1).length - 1);
     var er8 = String(parseInt(er7) + 1).charAt(String(parseInt(er7) + 1).length - 1);
     var san8 = String(parseInt(san7) + 1).charAt(String(parseInt(san7) + 1).length - 1);
-
-
 
     // 计算后的数字每位加一并转换为字符串并取末位拼接
     input5.value = yi + er + san;
@@ -280,9 +273,6 @@ function calc() {
     var ererer8 = String(parseInt(ererer7) - 1).charAt(String(parseInt(ererer7) - 1).length - 1);
     var sansansan8 = String(parseInt(sansansan7) - 1).charAt(String(parseInt(sansansan7) - 1).length - 1);
 
-
-
-
     input555.value = yiyiyi + ererer + sansansan;
     input666.value = yiyiyi1 + ererer1 + sansansan1;
     input777.value = yiyiyi2 + ererer2 + sansansan2;
@@ -292,18 +282,67 @@ function calc() {
     input111111.value = yiyiyi6 + ererer6 + sansansan6;
     input121212.value = yiyiyi7 + ererer7 + sansansan7;
     input131313.value = yiyiyi8 + ererer8 + sansansan8;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 获取焦点
+window.onload = interval = setInterval(
+    function () {
+        input1.focus();
+        clearInterval(interval);
+    }, 100);
+
+window.onload = setInterval(
+    function () {
+        if (input1.value != "" && input2.value != "" && input3.value != "") {
+            calc();
+        }
+    }, 500);
+
+window.onload = interval1 = setInterval(
+    function () {
+        if (input1.value != "") {
+            input2.focus();
+        }
+        if (input2.value != "") {
+            input3.focus();
+            clearInterval(interval1);
+        }
+    }, 100);
