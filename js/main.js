@@ -245,6 +245,153 @@ function calc() {
     p4.innerHTML = "直接减：" + yiyiyi + ererer + sansansan + " " + yiyiyi1 + ererer1 + sansansan1 + " " + yiyiyi2 + ererer2 + sansansan2 + " " + yiyiyi3 + ererer3 + sansansan3 + " " + yiyiyi4 + ererer4 + sansansan4 + " " + yiyiyi5 + ererer5 + sansansan5 + " " + yiyiyi6 + ererer6 + sansansan6 + " " + yiyiyi7 + ererer7 + sansansan7 + " " + yiyiyi8 + ererer8 + sansansan8;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var yiyiyiyi = String(10 - parseInt(input1.value)).charAt(String(10 - parseInt(input1.value)).length - 1);
+    var erererer = String(10 - parseInt(input2.value)).charAt(String(10 - parseInt(input2.value)).length - 1);
+    var sansansansan = String(10 - parseInt(input3.value)).charAt(String(10 - parseInt(input3.value)).length - 1);
+
+    var yiyiyiyi1 = String(parseInt(yiyiyiyi) + 1).charAt(String(parseInt(yiyiyiyi) + 1).length - 1);
+    var erererer1 = String(parseInt(erererer) + 1).charAt(String(parseInt(erererer) + 1).length - 1);
+    var sansansansan1 = String(parseInt(sansansansan) + 1).charAt(String(parseInt(sansansansan) + 1).length - 1);
+
+    var yiyiyiyi2 = String(parseInt(yiyiyiyi1) + 1).charAt(String(parseInt(yiyiyiyi1) + 1).length - 1);
+    var erererer2 = String(parseInt(erererer1) + 1).charAt(String(parseInt(erererer1) + 1).length - 1);
+    var sansansansan2 = String(parseInt(sansansansan1) + 1).charAt(String(parseInt(sansansansan1) + 1).length - 1);
+
+    var yiyiyiyi3 = String(parseInt(yiyiyiyi2) + 1).charAt(String(parseInt(yiyiyiyi2) + 1).length - 1);
+    var erererer3 = String(parseInt(erererer2) + 1).charAt(String(parseInt(erererer2) + 1).length - 1);
+    var sansansansan3 = String(parseInt(sansansansan2) + 1).charAt(String(parseInt(sansansansan2) + 1).length - 1);
+
+    var yiyiyiyi4 = String(parseInt(yiyiyiyi3) + 1).charAt(String(parseInt(yiyiyiyi3) + 1).length - 1);
+    var erererer4 = String(parseInt(erererer3) + 1).charAt(String(parseInt(erererer3) + 1).length - 1);
+    var sansansansan4 = String(parseInt(sansansansan3) + 1).charAt(String(parseInt(sansansansan3) + 1).length - 1);
+
+    var yiyiyiyi5 = String(parseInt(yiyiyiyi4) + 1).charAt(String(parseInt(yiyiyiyi4) + 1).length - 1);
+    var erererer5 = String(parseInt(erererer4) + 1).charAt(String(parseInt(erererer4) + 1).length - 1);
+    var sansansansan5 = String(parseInt(sansansansan4) + 1).charAt(String(parseInt(sansansansan4) + 1).length - 1);
+
+    var yiyiyiyi6 = String(parseInt(yiyiyiyi5) + 1).charAt(String(parseInt(yiyiyiyi5) + 1).length - 1);
+    var erererer6 = String(parseInt(erererer5) + 1).charAt(String(parseInt(erererer5) + 1).length - 1);
+    var sansansansan6 = String(parseInt(sansansansan5) + 1).charAt(String(parseInt(sansansansan5) + 1).length - 1);
+
+    var yiyiyiyi7 = String(parseInt(yiyiyiyi6) + 1).charAt(String(parseInt(yiyiyiyi6) + 1).length - 1);
+    var erererer7 = String(parseInt(erererer6) + 1).charAt(String(parseInt(erererer6) + 1).length - 1);
+    var sansansansan7 = String(parseInt(sansansansan6) + 1).charAt(String(parseInt(sansansansan6) + 1).length - 1);
+
+    var yiyiyiyi8 = String(parseInt(yiyiyiyi7) + 1).charAt(String(parseInt(yiyiyiyi7) + 1).length - 1);
+    var erererer8 = String(parseInt(erererer7) + 1).charAt(String(parseInt(erererer7) + 1).length - 1);
+    var sansansansan8 = String(parseInt(sansansansan7) + 1).charAt(String(parseInt(sansansansan7) + 1).length - 1);
+
+
+    var p5 = document.getElementById("p5");
+
+    p5.innerHTML = "加到十：" + yiyiyiyi + erererer + sansansansan + " " + yiyiyiyi1 + erererer1 + sansansansan1 + " " + yiyiyiyi2 + erererer2 + sansansansan2 + " " + yiyiyiyi3 + erererer3 + sansansansan3 + " " + yiyiyiyi4 + erererer4 + sansansansan4 + " " + yiyiyiyi5 + erererer5 + sansansansan5 + " " + yiyiyiyi6 + erererer6 + sansansansan6 + " " + yiyiyiyi7 + erererer7 + sansansansan7 + " " + yiyiyiyi8 + erererer8 + sansansansan8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var yiyiyiyiyi = String(11 - parseInt(input1.value)).charAt(String(11 - parseInt(input1.value)).length - 1);
+    var ererererer = String(11 - parseInt(input2.value)).charAt(String(11 - parseInt(input2.value)).length - 1);
+    var sansansansansan = String(11 - parseInt(input3.value)).charAt(String(11 - parseInt(input3.value)).length - 1);
+
+    var yiyiyiyiyi1 = String(parseInt(yiyiyiyiyi) + 1).charAt(String(parseInt(yiyiyiyiyi) + 1).length - 1);
+    var ererererer1 = String(parseInt(ererererer) + 1).charAt(String(parseInt(ererererer) + 1).length - 1);
+    var sansansansansan1 = String(parseInt(sansansansansan) + 1).charAt(String(parseInt(sansansansansan) + 1).length - 1);
+
+    var yiyiyiyiyi2 = String(parseInt(yiyiyiyiyi1) + 1).charAt(String(parseInt(yiyiyiyiyi1) + 1).length - 1);
+    var ererererer2 = String(parseInt(ererererer1) + 1).charAt(String(parseInt(ererererer1) + 1).length - 1);
+    var sansansansansan2 = String(parseInt(sansansansansan1) + 1).charAt(String(parseInt(sansansansansan1) + 1).length - 1);
+
+    var yiyiyiyiyi3 = String(parseInt(yiyiyiyiyi2) + 1).charAt(String(parseInt(yiyiyiyiyi2) + 1).length - 1);
+    var ererererer3 = String(parseInt(ererererer2) + 1).charAt(String(parseInt(ererererer2) + 1).length - 1);
+    var sansansansansan3 = String(parseInt(sansansansansan2) + 1).charAt(String(parseInt(sansansansansan2) + 1).length - 1);
+
+    var yiyiyiyiyi4 = String(parseInt(yiyiyiyiyi3) + 1).charAt(String(parseInt(yiyiyiyiyi3) + 1).length - 1);
+    var ererererer4 = String(parseInt(ererererer3) + 1).charAt(String(parseInt(ererererer3) + 1).length - 1);
+    var sansansansansan4 = String(parseInt(sansansansansan3) + 1).charAt(String(parseInt(sansansansansan3) + 1).length - 1);
+
+    var yiyiyiyiyi5 = String(parseInt(yiyiyiyiyi4) + 1).charAt(String(parseInt(yiyiyiyiyi4) + 1).length - 1);
+    var ererererer5 = String(parseInt(ererererer4) + 1).charAt(String(parseInt(ererererer4) + 1).length - 1);
+    var sansansansansan5 = String(parseInt(sansansansansan4) + 1).charAt(String(parseInt(sansansansansan4) + 1).length - 1);
+
+    var yiyiyiyiyi6 = String(parseInt(yiyiyiyiyi5) + 1).charAt(String(parseInt(yiyiyiyiyi5) + 1).length - 1);
+    var ererererer6 = String(parseInt(ererererer5) + 1).charAt(String(parseInt(ererererer5) + 1).length - 1);
+    var sansansansansan6 = String(parseInt(sansansansansan5) + 1).charAt(String(parseInt(sansansansansan5) + 1).length - 1);
+
+    var yiyiyiyiyi7 = String(parseInt(yiyiyiyiyi6) + 1).charAt(String(parseInt(yiyiyiyiyi6) + 1).length - 1);
+    var ererererer7 = String(parseInt(ererererer6) + 1).charAt(String(parseInt(ererererer6) + 1).length - 1);
+    var sansansansansan7 = String(parseInt(sansansansansan6) + 1).charAt(String(parseInt(sansansansansan6) + 1).length - 1);
+
+    var yiyiyiyiyi8 = String(parseInt(yiyiyiyiyi7) + 1).charAt(String(parseInt(yiyiyiyiyi7) + 1).length - 1);
+    var ererererer8 = String(parseInt(ererererer7) + 1).charAt(String(parseInt(ererererer7) + 1).length - 1);
+    var sansansansansan8 = String(parseInt(sansansansansan7) + 1).charAt(String(parseInt(sansansansansan7) + 1).length - 1);
+
+
+    var p6 = document.getElementById("p6");
+
+    p6.innerHTML = "加十一：" + yiyiyiyiyi + ererererer + sansansansansan + " " + yiyiyiyiyi1 + ererererer1 + sansansansansan1 + " " + yiyiyiyiyi2 + ererererer2 + sansansansansan2 + " " + yiyiyiyiyi3 + ererererer3 + sansansansansan3 + " " + yiyiyiyiyi4 + ererererer4 + sansansansansan4 + " " + yiyiyiyiyi5 + ererererer5 + sansansansansan5 + " " + yiyiyiyiyi6 + ererererer6 + sansansansansan6 + " " + yiyiyiyiyi7 + ererererer7 + sansansansansan7 + " " + yiyiyiyiyi8 + ererererer8 + sansansansansan8;
+
+
 }
 
 
