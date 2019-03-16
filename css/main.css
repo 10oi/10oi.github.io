@@ -4,6 +4,10 @@
 }
 
 input {
-    width: 35px;
+    width: 32px;
     text-align: center;
+}
+
+p {
+    font-size: 14px;
 }
