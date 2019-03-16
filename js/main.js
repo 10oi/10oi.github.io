@@ -164,15 +164,9 @@ function calc() {
     var san8 = String(parseInt(san7) + 1).charAt(String(parseInt(san7) + 1).length - 1);
 
     // 计算后的数字每位加一并转换为字符串并取末位拼接
-
-
-    var p2 = document.getElementById("p2");
-
-    p2.innerHTML = "分别加：" + num1 + num2 + num3;
-
     var p3 = document.getElementById("p3");
 
-    p3.innerHTML = "算后加：" + yi + er + san + " " + yi1 + er1 + san1 + " " + yi2 + er2 + san2 + " " + yi3 + er3 + san3 + " " + yi4 + er4 + san4 + " " + yi5 + er5 + san5 + " " + yi6 + er6 + san6 + " " + yi7 + er7 + san7 + " " + yi8 + er8 + san8;
+    p3.innerHTML = "算后加：" + num1 + num2 + num3 + " " + yi + er + san + " " + yi1 + er1 + san1 + " " + yi2 + er2 + san2 + " " + yi3 + er3 + san3 + " " + yi4 + er4 + san4 + " " + yi5 + er5 + san5 + " " + yi6 + er6 + san6 + " " + yi7 + er7 + san7 + " " + yi8 + er8 + san8;
 
 
 
