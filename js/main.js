@@ -78,15 +78,10 @@ function calc() {
     var erer8 = String(parseInt(erer7) + 1).charAt(String(parseInt(erer7) + 1).length - 1);
     var sansan8 = String(parseInt(sansan7) + 1).charAt(String(parseInt(sansan7) + 1).length - 1);
 
-    input55.value = yiyi + erer + sansan;
-    input66.value = yiyi1 + erer1 + sansan1;
-    input77.value = yiyi2 + erer2 + sansan2;
-    input88.value = yiyi3 + erer3 + sansan3;
-    input99.value = yiyi4 + erer4 + sansan4;
-    input1010.value = yiyi5 + erer5 + sansan5;
-    input1111.value = yiyi6 + erer6 + sansan6;
-    input1212.value = yiyi7 + erer7 + sansan7;
-    input1313.value = yiyi8 + erer8 + sansan8;
+    // 段落
+    var p1 = document.getElementById("p1");
+    // 段落直接加
+    p1.innerHTML = "直接加：" + yiyi + erer + sansan + " " + yiyi1 + erer1 + sansan1 + " " + yiyi2 + erer2 + sansan2 + " " + yiyi3 + erer3 + sansan3 + " " + yiyi4 + erer4 + sansan4 + " " + yiyi5 + erer5 + sansan5 + " " + yiyi6 + erer6 + sansan6 + " " + yiyi7 + erer7 + sansan7 + " " + yiyi8 + erer8 + sansan8
 
 
 
@@ -126,28 +121,11 @@ function calc() {
 
 
 
-
-    // 分别加
-    var input4 = document.getElementById("input4");
 
     // 计算输入数字每两位之和
     var num1 = String(parseInt(input1.value) + parseInt(input2.value)).charAt(String(parseInt(input1.value) + parseInt(input2.value)).length - 1);
     var num2 = String(parseInt(input2.value) + parseInt(input3.value)).charAt(String(parseInt(input2.value) + parseInt(input3.value)).length - 1);
     var num3 = String(parseInt(input1.value) + parseInt(input3.value)).charAt(String(parseInt(input1.value) + parseInt(input3.value)).length - 1);
-
-    // 转换为字符串并取末位拼接
-    input4.value = num1 + num2 + num3;
-
-    // 获取ID
-    var input5 = document.getElementById("input5");
-    var input6 = document.getElementById("input6");
-    var input7 = document.getElementById("input7");
-    var input8 = document.getElementById("input8");
-    var input9 = document.getElementById("input9");
-    var input10 = document.getElementById("input10");
-    var input11 = document.getElementById("input11");
-    var input12 = document.getElementById("input12");
-    var input13 = document.getElementById("input13");
 
     var yi = String(parseInt(num1) + 1).charAt(String(parseInt(num1) + 1).length - 1);
     var er = String(parseInt(num2) + 1).charAt(String(parseInt(num2) + 1).length - 1);
@@ -186,20 +164,15 @@ function calc() {
     var san8 = String(parseInt(san7) + 1).charAt(String(parseInt(san7) + 1).length - 1);
 
     // 计算后的数字每位加一并转换为字符串并取末位拼接
-    input5.value = yi + er + san;
-    input6.value = yi1 + er1 + san1;
-    input7.value = yi2 + er2 + san2;
-    input8.value = yi3 + er3 + san3;
-    input9.value = yi4 + er4 + san4;
-    input10.value = yi5 + er5 + san5;
-    input11.value = yi6 + er6 + san6;
-    input12.value = yi7 + er7 + san7;
-    input13.value = yi8 + er8 + san8;
 
 
+    var p2 = document.getElementById("p2");
 
+    p2.innerHTML = "分别加：" + num1 + num2 + num3;
 
+    var p3 = document.getElementById("p3");
 
+    p3.innerHTML = "算后加：" + yi + er + san + " " + yi1 + er1 + san1 + " " + yi2 + er2 + san2 + " " + yi3 + er3 + san3 + " " + yi4 + er4 + san4 + " " + yi5 + er5 + san5 + " " + yi6 + er6 + san6 + " " + yi7 + er7 + san7 + " " + yi8 + er8 + san8;
 
 
 
@@ -273,15 +246,11 @@ function calc() {
     var ererer8 = String(parseInt(ererer7) - 1).charAt(String(parseInt(ererer7) - 1).length - 1);
     var sansansan8 = String(parseInt(sansansan7) - 1).charAt(String(parseInt(sansansan7) - 1).length - 1);
 
-    input555.value = yiyiyi + ererer + sansansan;
-    input666.value = yiyiyi1 + ererer1 + sansansan1;
-    input777.value = yiyiyi2 + ererer2 + sansansan2;
-    input888.value = yiyiyi3 + ererer3 + sansansan3;
-    input999.value = yiyiyi4 + ererer4 + sansansan4;
-    input101010.value = yiyiyi5 + ererer5 + sansansan5;
-    input111111.value = yiyiyi6 + ererer6 + sansansan6;
-    input121212.value = yiyiyi7 + ererer7 + sansansan7;
-    input131313.value = yiyiyi8 + ererer8 + sansansan8;
+    var p4 = document.getElementById("p4");
+
+    p4.innerHTML = "直接减：" + yiyiyi + ererer + sansansan + " " + yiyiyi1 + ererer1 + sansansan1 + " " + yiyiyi2 + ererer2 + sansansan2 + " " + yiyiyi3 + ererer3 + sansansan3 + " " + yiyiyi4 + ererer4 + sansansan4 + " " + yiyiyi5 + ererer5 + sansansan5 + " " + yiyiyi6 + ererer6 + sansansan6 + " " + yiyiyi7 + ererer7 + sansansan7 + " " + yiyiyi8 + ererer8 + sansansan8;
+
+
 }
 
 
