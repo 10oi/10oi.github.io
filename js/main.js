@@ -81,7 +81,7 @@ function calc() {
     // 段落
     var p1 = document.getElementById("p1");
     // 段落直接加
-    p1.innerHTML = "直接加：" + yiyi + erer + sansan + " " + yiyi1 + erer1 + sansan1 + " " + yiyi2 + erer2 + sansan2 + " " + yiyi3 + erer3 + sansan3 + " " + yiyi4 + erer4 + sansan4 + " " + yiyi5 + erer5 + sansan5 + " " + yiyi6 + erer6 + sansan6 + " " + yiyi7 + erer7 + sansan7 + " " + yiyi8 + erer8 + sansan8
+    p1.innerHTML = "直接加：" + yiyi + erer + sansan + " " + yiyi1 + erer1 + sansan1 + " " + yiyi2 + erer2 + sansan2 + " " + yiyi3 + erer3 + sansan3 + " " + yiyi4 + erer4 + sansan4 + " " + yiyi5 + erer5 + sansan5 + " " + yiyi6 + erer6 + sansan6 + " " + yiyi7 + erer7 + sansan7 + " " + yiyi8 + erer8 + sansan8;
 
 
 
