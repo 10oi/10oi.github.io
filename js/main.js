@@ -78,26 +78,44 @@ function calc() {
     var erer8 = String(parseInt(erer7) + 1).charAt(String(parseInt(erer7) + 1).length - 1);
     var sansan8 = String(parseInt(sansan7) + 1).charAt(String(parseInt(sansan7) + 1).length - 1);
 
+
+
+    var shuzu = new Array(yiyi, erer, sansan, yiyi1, erer1, sansan1, yiyi2, erer2, sansan2, yiyi3, erer3, sansan3, yiyi4, erer4, sansan4, yiyi5, erer5, sansan5, yiyi6, erer6, sansan6, yiyi7, erer7, sansan7, yiyi8, erer8, sansan8);
+
+    var xianhou0 = shuzu.indexOf("0");
+    var xianhou1 = shuzu.indexOf("1");
+    var xianhou2 = shuzu.indexOf("2");
+    var xianhou3 = shuzu.indexOf("3");
+    var xianhou4 = shuzu.indexOf("4");
+    var xianhou5 = shuzu.indexOf("5");
+    var xianhou6 = shuzu.indexOf("6");
+    var xianhou7 = shuzu.indexOf("7");
+    var xianhou8 = shuzu.indexOf("8");
+    var xianhou9 = shuzu.indexOf("9");
+
+    var shuzu1 = new Array(xianhou0, xianhou1, xianhou2, xianhou3, xianhou4, xianhou5, xianhou6, xianhou7, xianhou8, xianhou9);
+
+
+    for (var i = 0; i < shuzu1.length - 1; i++) {
+        for (var j = 0; j < shuzu1.length - 1 - i; j++) {
+            if (shuzu1[j] > shuzu1[j + 1]) {
+                var temp = shuzu1[j];
+                shuzu1[j] = shuzu[j + 1];
+                shuzu1[j + 1] = temp;
+            }
+        }
+    }
+
+    var p15 = document.getElementById("p15");
+
+    p15.innerHTML = "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1) + "数组：" + shuzu.slice(0, (shuzu1[shuzu1.length - 1] + 1));
+
+
+
     // 段落
     var p1 = document.getElementById("p1");
     // 段落直接加
     p1.innerHTML = "直接加：" + yiyi + erer + sansan + " " + yiyi1 + erer1 + sansan1 + " " + yiyi2 + erer2 + sansan2 + " " + yiyi3 + erer3 + sansan3 + " " + yiyi4 + erer4 + sansan4 + " " + yiyi5 + erer5 + sansan5 + " " + yiyi6 + erer6 + sansan6 + " " + yiyi7 + erer7 + sansan7 + " " + yiyi8 + erer8 + sansan8;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -171,6 +189,35 @@ function calc() {
 
 
 
+    var shuzu00 = new Array(num1, num2, num3, yi, er, san, yi1, er1, san1, yi2, er2, san2, yi3, er3, san3, yi4, er4, san4, yi5, er5, san5, yi6, er6, san6, yi7, er7, san7, yi8, er8, san8);
+
+    var xianhouhou0 = shuzu00.indexOf("0");
+    var xianhouhou1 = shuzu00.indexOf("1");
+    var xianhouhou2 = shuzu00.indexOf("2");
+    var xianhouhou3 = shuzu00.indexOf("3");
+    var xianhouhou4 = shuzu00.indexOf("4");
+    var xianhouhou5 = shuzu00.indexOf("5");
+    var xianhouhou6 = shuzu00.indexOf("6");
+    var xianhouhou7 = shuzu00.indexOf("7");
+    var xianhouhou8 = shuzu00.indexOf("8");
+    var xianhouhou9 = shuzu00.indexOf("9");
+
+    var shuzu11 = new Array(xianhouhou0, xianhouhou1, xianhouhou2, xianhouhou3, xianhouhou4, xianhouhou5, xianhouhou6, xianhouhou7, xianhouhou8, xianhouhou9);
+
+
+    for (var i = 0; i < shuzu11.length - 1; i++) {
+        for (var j = 0; j < shuzu11.length - 1 - i; j++) {
+            if (shuzu11[j] > shuzu11[j + 1]) {
+                var temp = shuzu11[j];
+                shuzu11[j] = shuzu[j + 1];
+                shuzu11[j + 1] = temp;
+            }
+        }
+    }
+
+    var p16 = document.getElementById("p16");
+
+    p16.innerHTML = "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1) + "数组：" + shuzu00.slice(0, (shuzu11[shuzu11.length - 1] + 1));
 
 
 
