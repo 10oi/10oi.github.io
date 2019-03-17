@@ -95,27 +95,30 @@ function calc() {
 
     var shuzu1 = new Array(xianhou0, xianhou1, xianhou2, xianhou3, xianhou4, xianhou5, xianhou6, xianhou7, xianhou8, xianhou9);
 
-
-    for (var i = 0; i < shuzu1.length - 1; i++) {
-        for (var j = 0; j < shuzu1.length - 1 - i; j++) {
+    for (let i = 0; i < shuzu1.length - 1; i++) {
+        for (let j = 0; j < shuzu1.length - 1 - i; j++) {
             if (shuzu1[j] > shuzu1[j + 1]) {
-                var temp = shuzu1[j];
+                let temp = shuzu1[j];
                 shuzu1[j] = shuzu[j + 1];
                 shuzu1[j + 1] = temp;
             }
         }
     }
 
-    var p15 = document.getElementById("p15");
+    var a = [];
+    for (let i = 0; i < shuzu.slice(0, (shuzu1[shuzu1.length - 1] + 1)).length; i++) {
 
-    p15.innerHTML = "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1) + "数组：" + shuzu.slice(0, (shuzu1[shuzu1.length - 1] + 1));
-
-
+        if (i % 3 == 2) {
+            a = a + shuzu[i] + " ";
+        } else {
+            a = a + shuzu[i];
+        }
+    }
 
     // 段落
     var p1 = document.getElementById("p1");
     // 段落直接加
-    p1.innerHTML = "直接加：" + yiyi + erer + sansan + " " + yiyi1 + erer1 + sansan1 + " " + yiyi2 + erer2 + sansan2 + " " + yiyi3 + erer3 + sansan3 + " " + yiyi4 + erer4 + sansan4 + " " + yiyi5 + erer5 + sansan5 + " " + yiyi6 + erer6 + sansan6 + " " + yiyi7 + erer7 + sansan7 + " " + yiyi8 + erer8 + sansan8;
+    p1.innerHTML = "直接加：" + a + "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1);
 
 
 
@@ -181,14 +184,6 @@ function calc() {
     var er8 = String(parseInt(er7) + 1).charAt(String(parseInt(er7) + 1).length - 1);
     var san8 = String(parseInt(san7) + 1).charAt(String(parseInt(san7) + 1).length - 1);
 
-    // 计算后的数字每位加一并转换为字符串并取末位拼接
-    var p3 = document.getElementById("p3");
-
-    p3.innerHTML = "算后加：" + num1 + num2 + num3 + " " + yi + er + san + " " + yi1 + er1 + san1 + " " + yi2 + er2 + san2 + " " + yi3 + er3 + san3 + " " + yi4 + er4 + san4 + " " + yi5 + er5 + san5 + " " + yi6 + er6 + san6 + " " + yi7 + er7 + san7 + " " + yi8 + er8 + san8;
-
-
-
-
     var shuzu00 = new Array(num1, num2, num3, yi, er, san, yi1, er1, san1, yi2, er2, san2, yi3, er3, san3, yi4, er4, san4, yi5, er5, san5, yi6, er6, san6, yi7, er7, san7, yi8, er8, san8);
 
     var xianhouhou0 = shuzu00.indexOf("0");
@@ -204,20 +199,33 @@ function calc() {
 
     var shuzu11 = new Array(xianhouhou0, xianhouhou1, xianhouhou2, xianhouhou3, xianhouhou4, xianhouhou5, xianhouhou6, xianhouhou7, xianhouhou8, xianhouhou9);
 
-
-    for (var i = 0; i < shuzu11.length - 1; i++) {
-        for (var j = 0; j < shuzu11.length - 1 - i; j++) {
+    for (let i = 0; i < shuzu11.length - 1; i++) {
+        for (let j = 0; j < shuzu11.length - 1 - i; j++) {
             if (shuzu11[j] > shuzu11[j + 1]) {
-                var temp = shuzu11[j];
+                let temp = shuzu11[j];
                 shuzu11[j] = shuzu[j + 1];
                 shuzu11[j + 1] = temp;
             }
         }
     }
 
-    var p16 = document.getElementById("p16");
+    var b = [];
+    for (let i = 0; i < shuzu00.slice(0, (shuzu11[shuzu11.length - 1] + 1)).length; i++) {
 
-    p16.innerHTML = "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1) + "数组：" + shuzu00.slice(0, (shuzu11[shuzu11.length - 1] + 1));
+        if (i % 3 == 2) {
+            b = b + shuzu00[i] + " ";
+        } else {
+            b = b + shuzu00[i];
+        }
+    }
+
+    // 计算后的数字每位加一并转换为字符串并取末位拼接
+    var p3 = document.getElementById("p3");
+
+    p3.innerHTML = "算后加：" + b + "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1);
+
+
+
 
 
 
