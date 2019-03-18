@@ -227,7 +227,7 @@ function calc() {
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "直接加 " + input1.value + input2.value + input3.value + " " + a + " 缺" + shuzu[shuzu1[shuzu1.length - 1]] + " 位置" + (shuzu1[shuzu1.length - 1] + 1) + "\n" + "算后加 " + b + " 缺" + shuzu00[shuzu11[shuzu11.length - 1]] + " 位置" + (shuzu11[shuzu11.length - 1] + 1);
+    textarea1.value = "\n号码 " + input1.value + input2.value + input3.value + "\n直接加 " + a + " 缺" + shuzu[shuzu1[shuzu1.length - 1]] + " 位置" + (shuzu1[shuzu1.length - 1] + 1) + "\n" + "算后加 " + b + " 缺" + shuzu00[shuzu11[shuzu11.length - 1]] + " 位置" + (shuzu11[shuzu11.length - 1] + 1);
 
 
 

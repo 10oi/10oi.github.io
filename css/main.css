@@ -1,17 +1,17 @@
 input {
-    width: 50px;
-    height: 20px;
+    width: 70px;
+    height: 30px;
     text-align: center;
 }
 
 textarea {
     font-size: 14px;
     font-family: 'Microsoft YaHei UI';
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 button {
-    width: 80px;
-    height: 30px;
-    margin-top: 30px
+    width: 100px;
+    height: 40px;
+    margin-top: 50px
 }
