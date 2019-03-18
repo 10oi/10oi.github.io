@@ -227,9 +227,9 @@ function calc() {
 
 
 
-
-
-
+    // 文本域
+    var textarea1 = document.getElementById("textarea1");
+    textarea1.value = "直接加：" + a + "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1) + "\n" + "算后加：" + b + "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1);
 
 
 
@@ -313,7 +313,49 @@ function calc() {
                 }
             }, 100);
     }
+
+    // 复制
+    document.getElementById("btn2").onclick = function () {
+        textarea1.select();
+        document.execCommand("Copy");
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
