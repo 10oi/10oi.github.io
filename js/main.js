@@ -296,11 +296,23 @@ function calc() {
 
 
 
-
-
-
-
-
+    // 清除输入数字
+    document.getElementById("btn1").onclick = function () {
+        input1.value = "";
+        input2.value = "";
+        input3.value = "";
+        input1.focus();
+        interval1 = setInterval(
+            function () {
+                if (input1.value != "") {
+                    input2.focus();
+                }
+                if (input2.value != "") {
+                    input3.focus();
+                    clearInterval(interval1);
+                }
+            }, 100);
+    }
 }
 
 
