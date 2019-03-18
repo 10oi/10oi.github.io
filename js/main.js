@@ -18,20 +18,7 @@ function calc() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
@@ -78,8 +65,6 @@ function calc() {
     var erer8 = String(parseInt(erer7) + 1).charAt(String(parseInt(erer7) + 1).length - 1);
     var sansan8 = String(parseInt(sansan7) + 1).charAt(String(parseInt(sansan7) + 1).length - 1);
 
-
-
     var shuzu = new Array(yiyi, erer, sansan, yiyi1, erer1, sansan1, yiyi2, erer2, sansan2, yiyi3, erer3, sansan3, yiyi4, erer4, sansan4, yiyi5, erer5, sansan5, yiyi6, erer6, sansan6, yiyi7, erer7, sansan7, yiyi8, erer8, sansan8);
 
     var xianhou0 = shuzu.indexOf("0");
@@ -114,13 +99,6 @@ function calc() {
             a = a + shuzu[i];
         }
     }
-
-    // 段落
-    var p1 = document.getElementById("p1");
-    // 段落直接加
-    p1.innerHTML = "直接加：" + a + "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1);
-
-
 
 
 
@@ -219,40 +197,37 @@ function calc() {
         }
     }
 
-    // 计算后的数字每位加一并转换为字符串并取末位拼接
-    var p3 = document.getElementById("p3");
 
-    p3.innerHTML = "算后加：" + b + "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "直接加：" + a + "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1) + "\n" + "算后加：" + b + "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    textarea1.value = "直接加：" +input1.value+input2.value+input3.value+" "+ a + "缺：" + shuzu[shuzu1[shuzu1.length - 1]] + "位置：" + (shuzu1[shuzu1.length - 1] + 1) + "\n" + "算后加：" + b + "缺：" + shuzu00[shuzu11[shuzu11.length - 1]] + "位置：" + (shuzu11[shuzu11.length - 1] + 1);
 
 
 
