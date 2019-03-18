@@ -317,13 +317,14 @@ function calc() {
 
 
 
-// 获取焦点
+// 初始化获取焦点
 window.onload = interval = setInterval(
     function () {
         input1.focus();
         clearInterval(interval);
     }, 200);
 
+// 初始化计算
 window.onload = setInterval(
     function () {
         if (input1.value != "" && input2.value != "" && input3.value != "") {
@@ -331,6 +332,7 @@ window.onload = setInterval(
         }
     }, 200);
 
+// 初始化判断焦点
 window.onload = interval1 = setInterval(
     function () {
         if (input1.value != "") {
