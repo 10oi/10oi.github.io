@@ -346,13 +346,13 @@ function calc() {
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "号码 " + input1.value + input2.value + input3.value + " 买 √×" +"中 √×"+
+    textarea1.value = "\n号码 " + input1.value + input2.value + input3.value + " 买 √×" +" 中 √×"+
         "\n直接加 " + a + " 缺" + shuzu[shuzu1[shuzu1.length - 1]] + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
-        "\n" + "值 " + zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9 +
-        "\n重 " + chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9 +
+        "\n" + "值 " + zhi0 + "  " + zhi1 + "  " + zhi2 + "  " + zhi3 + "  " + zhi4 + "  " + zhi5 + "  " + zhi6 + "  " + zhi7 + "  " + zhi8 + "  " + zhi9 +
+        "\n重 " + chong0 + "  " + chong1 + "  " + chong2 + "  " + chong3 + "  " + chong4 + "  " + chong5 + "  " + chong6 + "  " + chong7 + "  " + chong8 + "  " + chong9 +
         "\n算后加 " + b + " 缺" + shuzu00[shuzu11[shuzu11.length - 1]] + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
-        "\n" + "值 " + zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99 +
-        "\n重 " + chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99 +
+        "\n" + "值 " + zhi00 + "  " + zhi11 + "  " + zhi22 + "  " + zhi33 + "  " + zhi44 + "  " + zhi55 + "  " + zhi66 + "  " + zhi77 + "  " + zhi88 + "  " + zhi99 +
+        "\n重 " + chong00 + "  " + chong11 + "  " + chong22 + "  " + chong33 + "  " + chong44 + "  " + chong55 + "  " + chong66 + "  " + chong77 + "  " + chong88 + "  " + chong99 +
         "\n";
 
 
