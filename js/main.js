@@ -306,15 +306,137 @@ function calc() {
 
 
 
+    
+    var zhi0 = 0;
+    var zhi1 = 1;
+    var zhi2 = 2;
+    var zhi3 = 3;
+    var zhi4 = 4;
+    var zhi5 = 5;
+    var zhi6 = 6;
+    var zhi7 = 7;
+    var zhi8 = 8;
+    var zhi9 = 9;
+
+    if (chong0 != 3) {
+        zhi0 = " ";
+        chong0 = " ";
+    }
+    if (chong1 != 3) {
+        zhi1 = " ";
+        chong1 = " ";
+    }
+    if (chong2 != 3) {
+        zhi2 = " ";
+        chong2 = " ";
+    }
+    if (chong3 != 3) {
+        zhi3 = " ";
+        chong3 = " ";
+    }
+    if (chong4 != 3) {
+        zhi4 = " ";
+        chong4 = " ";
+    }
+    if (chong5 != 3) {
+        zhi5 = " ";
+        chong5 = " ";
+    }
+    if (chong6 != 3) {
+        zhi6 = " ";
+        chong6 = " ";
+    }
+    if (chong7 != 3) {
+        zhi7 = " ";
+        chong7 = " ";
+    }
+    if (chong8 != 3) {
+        zhi8 = " ";
+        chong8 = " ";
+    }
+    if (chong9 != 3) {
+        zhi9 = " ";
+        chong9 = " ";
+    }
+
+
+
+
+
+
+
+
+
+
+    var zhi00 = 0;
+    var zhi11 = 1;
+    var zhi22 = 2;
+    var zhi33 = 3;
+    var zhi44 = 4;
+    var zhi55 = 5;
+    var zhi66 = 6;
+    var zhi77 = 7;
+    var zhi88 = 8;
+    var zhi99 = 9;
+
+    if (chong00 != 3) {
+        zhi00 = " ";
+        chong00 = " ";
+    }
+    if (chong11 != 3) {
+        zhi11 = " ";
+        chong11 = " ";
+    }
+    if (chong22 != 3) {
+        zhi22 = " ";
+        chong22 = " ";
+    }
+    if (chong33 != 3) {
+        zhi33 = " ";
+        chong33 = " ";
+    }
+    if (chong44 != 3) {
+        zhi44 = " ";
+        chong44 = " ";
+    }
+    if (chong55 != 3) {
+        zhi55 = " ";
+        chong55 = " ";
+    }
+    if (chong66 != 3) {
+        zhi66 = " ";
+        chong66 = " ";
+    }
+    if (chong77 != 3) {
+        zhi77 = " ";
+        chong77 = " ";
+    }
+    if (chong88 != 3) {
+        zhi88 = " ";
+        chong88 = " ";
+    }
+    if (chong99 != 3) {
+        zhi99 = " ";
+        chong99 = " ";
+    }
+
+
+
+
+
+
+
+
+
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "号码 " + input1.value + input2.value + input3.value +
+    textarea1.value = "号码 " + input1.value + input2.value + input3.value + " 买" +
         "\n直接加 " + a + " 缺" + shuzu[shuzu1[shuzu1.length - 1]] + " 位置" + (shuzu1[shuzu1.length - 1] + 1) +
-        "\n" + "值 " + 0 + " " + 1 + " " + 2 + " " + 3 + " " + 4 + " " + 5 + " " + 6 + " " + 7 + " " + 8 + " " + 9 +
+        "\n" + "值 " + zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9 +
         "\n重 " + chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9 +
         "\n算后加 " + b + " 缺" + shuzu00[shuzu11[shuzu11.length - 1]] + " 位置" + (shuzu11[shuzu11.length - 1] + 1) +
-        "\n" + "值 " + 0 + " " + 1 + " " + 2 + " " + 3 + " " + 4 + " " + 5 + " " + 6 + " " + 7 + " " + 8 + " " + 9 +
+        "\n" + "值 " + zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99 +
         "\n重 " + chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99 +
         "\n";
 
