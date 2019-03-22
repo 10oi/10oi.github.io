@@ -400,7 +400,7 @@ function calc() {
         "\n" + "值 " + zhi0 + "-" + chong0 + " " + zhi1 + "-" + chong1 + " " + zhi2 + "-" + chong2 + " " + zhi3 + "-" + chong3 + " " + zhi4 + "-" + chong4 + " " + zhi5 + "-" + chong5 + " " + zhi6 + "-" + chong6 + " " + zhi7 + "-" + chong7 + " " + zhi8 + "-" + chong8 + " " + zhi9 + "-" + chong9 +
         "\n" + b + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
         "\n" + "值 " + zhi00 + "-" + chong00 + " " + zhi11 + "-" + chong11 + " " + zhi22 + "-" + chong22 + " " + zhi33 + "-" + chong33 + " " + zhi44 + "-" + chong44 + " " + zhi55 + "-" + chong55 + " " + zhi66 + "-" + chong66 + " " + zhi77 + "-" + chong77 + " " + zhi88 + "-" + chong88 + " " + zhi99 + "-" + chong99 +
-        "\n" + "  1 " + "    2" + "     3" + "     4" + "     5" + "     6" + "     7" + "     8" + "     9" + "     0" +
+        "\n" + "010" + " 020" + " 030" + " 040" + " 050" + " 060" + " 070" + " 080" + " 090" + " 000" +
         "\n" + yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999 +
         "\n";
 
