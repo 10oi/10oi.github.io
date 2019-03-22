@@ -396,7 +396,8 @@ function calc() {
     // 文本域
     var textarea1 = document.getElementById("textarea1");
     textarea1.value =
-        "\n" + input1.value + input2.value + input3.value + " ★ " + a + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
+        "\n" + "号码：" + input1.value + input2.value + input3.value +
+        "\n" + a + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
         "\n" + "值 " + zhi0 + "   " + zhi1 + "   " + zhi2 + "   " + zhi3 + "   " + zhi4 + "   " + zhi5 + "   " + zhi6 + "   " + zhi7 + "   " + zhi8 + "   " + zhi9 +
         "\n" + "重 " + chong0 + "   " + chong1 + "   " + chong2 + "   " + chong3 + "   " + chong4 + "   " + chong5 + "   " + chong6 + "   " + chong7 + "   " + chong8 + "   " + chong9 +
         "\n" + b + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
@@ -404,6 +405,7 @@ function calc() {
         "\n" + "重 " + chong00 + "   " + chong11 + "   " + chong22 + "   " + chong33 + "   " + chong44 + "   " + chong55 + "   " + chong66 + "   " + chong77 + "   " + chong88 + "   " + chong99 +
         "\n" + "010" + " 020" + " 030" + " 040" + " 050" + " 060" + " 070" + " 080" + " 090" + " 000" +
         "\n" + yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999 +
+        "\n" + " ★" + "    ★" + "    ★" + "    ★" + "    ★" + "    ★" + "    ★" + "    ★" + "    ★" + "    ★" +
         "\n";
 
 
