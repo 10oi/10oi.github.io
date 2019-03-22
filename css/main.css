@@ -9,7 +9,7 @@ textarea {
     background-color: #777;
     border: 1px solid #fff;
     border-radius: 4px;
-    padding: 6px;
+    padding: 8px;
 }
 
 span {
@@ -29,12 +29,12 @@ input {
 }
 
 button {
-    width: 100px;
+    width: 136px;
     height: 40px;
     font-size: 18px;
     color: #fff;
     background-color: #777;
     border: 1px solid #fff;
     border-radius: 4px;
-    margin: 4px 0 0 40px;
+    margin: 4px 0 0 16px;
 }
