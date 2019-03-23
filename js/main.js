@@ -594,25 +594,27 @@ function main() {
 
 
 
+    var haoma = input1.value + input2.value + input3.value;
+    var zhiliebiao1 = zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9;
+    var chongliebiao1 = chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9;
 
-
+    var zhiliebiao2 = zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99;
+    var chongliebiao2 = chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99;
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
     textarea1.value =
-        "\n" + "号码：" + input1.value + input2.value + input3.value +
+        "\n" + "号码：" + haoma +
         "\n" + a +
-        "\n" + "值 " + zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9 + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
-        "\n" + "重 " + chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9 +
+        "\n" + "值 " + zhiliebiao1 + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
+        "\n" + "重 " + chongliebiao1 +
         "\n" + b +
-        "\n" + "值 " + zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99 + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
-        "\n" + "重 " + chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99 +
+        "\n" + "值 " + zhiliebiao2 + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
+        "\n" + "重 " + chongliebiao2 +
         "\n" + "<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>" + " <0>" +
         "\n" + yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999 +
-        "\n" + "■■■■" + "■■■" + "■■■" + "■■■" + "■■■" + "■■■" +
         "\n" + "<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>" + " <0>" +
         "\n" + yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888 + " " + yi9999 + er9999 + san9999 +
-        "\n" + "■■■■" + "■■■" + "■■■" + "■■■" + "■■■" + "■■■" +
         "\n";
 
 
