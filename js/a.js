@@ -1,4 +1,37 @@
 function amain() {
+    // 输入框
+    var input1 = document.getElementById("input1");
+    var input2 = document.getElementById("input2");
+    var input3 = document.getElementById("input3");
+
+    // 号码
+    var yi = parseInt(input1.value);
+    var er = parseInt(input2.value);
+    var san = parseInt(input3.value);
+
+    // 定胆公式：上期奖号（百位乘以4+十位乘以9+个位乘以9+3）除以10，取余数，命中本期独胆。
+    var dan = (yi * 4 + er * 9 + san * 9 + 3) % 10;
+
+    // 文本域
+    var textarea1 = document.getElementById("textarea1");
+    textarea1.value = "定胆：" + dan;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // 清除输入数字
     document.getElementById("btn1").onclick = function () {
