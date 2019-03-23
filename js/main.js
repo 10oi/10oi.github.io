@@ -568,26 +568,6 @@ function main() {
         san8888 = String(san8888);
     }
 
-    var yi9999 = parseInt(yi8888) - 1;
-    var er9999 = parseInt(er8888) - 1;
-    var san9999 = parseInt(san8888) - 1;
-
-    if (yi9999 == -1) {
-        yi9999 = 9;
-    } else {
-        yi9999 = String(yi9999);
-    }
-    if (er9999 == -1) {
-        er9999 = 9;
-    } else {
-        er9999 = String(er9999);
-    }
-    if (san9999 == -1) {
-        san9999 = 9;
-    } else {
-        san9999 = String(san9999);
-    }
-
 
 
 
@@ -609,7 +589,7 @@ function main() {
     var shuzi = "<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>" + " <0>";
 
     var jian = yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999;
-    var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888 + " " + yi9999 + er9999 + san9999;
+    var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888;
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
