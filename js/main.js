@@ -1,4 +1,4 @@
-function calc() {
+function main() {
     // 输入框
     var input1 = document.getElementById("input1");
     var input2 = document.getElementById("input2");
@@ -462,7 +462,7 @@ window.onload = interval = setInterval(
 window.onload = setInterval(
     function () {
         if (input1.value != "" && input2.value != "" && input3.value != "") {
-            calc();
+            main();
         }
     }, 200);
 

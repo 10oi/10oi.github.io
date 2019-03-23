@@ -1,4 +1,4 @@
-function main() {
+function amain() {
 
     // 清除输入数字
     document.getElementById("btn1").onclick = function () {
@@ -45,7 +45,7 @@ window.onload = interval = setInterval(
 window.onload = setInterval(
     function () {
         if (input1.value != "" && input2.value != "" && input3.value != "") {
-            calc();
+            amain();
         }
     }, 200);
 
