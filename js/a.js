@@ -27,6 +27,7 @@ function amain() {
     // 跨
     var kua1;
     var kua2;
+    var kua3;
 
     if (yi > er) {
         kua1 = yi - er;
@@ -44,10 +45,18 @@ function amain() {
         kua2 = 0;
     }
 
+    if (san > yi) {
+        kua3 = san - yi;
+    } else if (san < yi) {
+        kua3 = yi - san;
+    } else {
+        kua3 = 0;
+    }
+
     // 跨结果
     var jieguo1 = String(kua1 * yi) + String(kua1 * er) + String(kua1 * san);
     var jieguo2 = String(kua2 * yi) + String(kua2 * er) + String(kua2 * san);
-
+    var jieguo3 = String(kua3 * yi) + String(kua3 * er) + String(kua3 * san);
 
 
 
@@ -59,7 +68,7 @@ function amain() {
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "\n" + haoma + " " + zhijiejia + " " + jieguo1 + " " + jieguo2 + "\n";
+    textarea1.value = "\n" + haoma + " " + zhijiejia + " " + jieguo1 + " " + jieguo2 + " " + jieguo3 + "\n";
 
 
 
