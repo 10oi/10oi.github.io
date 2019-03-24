@@ -67,7 +67,7 @@ function amain() {
     // 文本域
     var textarea1 = document.getElementById("textarea1");
     textarea1.value =
-        "\n" + haoma + " " + kua1 + kua2 + kua3 + "=" + (kua1 + kua2 + kua3) + " " + yier + ersan + sanyi + "=" + String(parseInt(yier) + parseInt(ersan) + parseInt(sanyi)).charAt(String(parseInt(yier) + parseInt(ersan) + parseInt(sanyi)).length - 1) +
+        "\n" + haoma + " " + kua1 + kua2 + kua3 + "=" + String(parseInt(kua1 + kua2 + kua3)).charAt(String(parseInt(kua1 + kua2 + kua3)).length - 1) + " " + yier + ersan + sanyi + "=" + String(parseInt(yier) + parseInt(ersan) + parseInt(sanyi)).charAt(String(parseInt(yier) + parseInt(ersan) + parseInt(sanyi)).length - 1) +
         "\n";
 
 
