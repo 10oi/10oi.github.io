@@ -4,25 +4,62 @@ function amain() {
     var input2 = document.getElementById("input2");
     var input3 = document.getElementById("input3");
 
+
+
+
+
+
+
+
+
+
     // 号码
     var yi = parseInt(input1.value);
     var er = parseInt(input2.value);
     var san = parseInt(input3.value);
 
-    // 定胆公式：上期奖号（百位乘以4+十位乘以9+个位乘以9+3）除以10，取余数，命中本期独胆。
-    var dan = (yi * 4 + er * 9 + san * 9 + 3) % 10;
+    // 三位号码
+    var haoma = String(yi).charAt(String(yi).length - 1) + String(er).charAt(String(er).length - 1) + String(san).charAt(String(san).length - 1);
+
+    // 直接加
+    var zhijiejia = String(yi + 1).charAt(String(yi + 1).length - 1) + String(er + 1).charAt(String(er + 1).length - 1) + String(san + 1).charAt(String(san + 1).length - 1);
+
+    // 跨
+    var kua1;
+    var kua2;
+
+    if (yi > er) {
+        kua1 = yi - er;
+    } else if (yi < er) {
+        kua1 = er - yi;
+    } else {
+        kua1 = 0;
+    }
+
+    if (er > san) {
+        kua2 = er - san;
+    } else if (er < san) {
+        kua2 = san - er;
+    } else {
+        kua2 = 0;
+    }
+
+    // 跨结果
+    var jieguo1 = String(kua1 * yi) + String(kua1 * er) + String(kua1 * san);
+    var jieguo2 = String(kua2 * yi) + String(kua2 * er) + String(kua2 * san);
+
+
+
+
+
+
+
+
+
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "定胆：" + dan;
-
-
-
-
-
-
-
-
+    textarea1.value = haoma + " " + zhijiejia + " " + jieguo1 + " " + jieguo2;
 
 
 
