@@ -59,7 +59,7 @@ function amain() {
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = haoma + " " + zhijiejia + " " + jieguo1 + " " + jieguo2;
+    textarea1.value = "\n" + haoma + " " + zhijiejia + " " + jieguo1 + " " + jieguo2 + "\n";
 
 
 
