@@ -21,9 +21,6 @@ function amain() {
     // 三位号码
     var haoma = String(yi).charAt(String(yi).length - 1) + String(er).charAt(String(er).length - 1) + String(san).charAt(String(san).length - 1);
 
-    // 直接加
-    var zhijiejia = String(yi + 1).charAt(String(yi + 1).length - 1) + String(er + 1).charAt(String(er + 1).length - 1) + String(san + 1).charAt(String(san + 1).length - 1);
-
     // 跨
     var kua1;
     var kua2;
@@ -53,10 +50,11 @@ function amain() {
         kua3 = 0;
     }
 
-    // 跨结果
-    var jieguo1 = String(kua1 * yi) + String(kua1 * er) + String(kua1 * san);
-    var jieguo2 = String(kua2 * yi) + String(kua2 * er) + String(kua2 * san);
-    var jieguo3 = String(kua3 * yi) + String(kua3 * er) + String(kua3 * san);
+    // 每两位之和
+    var yier = String(yi + er).charAt(String(yi + er).length - 1);
+    var ersan = String(er + san).charAt(String(er + san).length - 1);
+    var sanyi = String(san + yi).charAt(String(yi + san).length - 1);
+
 
 
 
@@ -68,7 +66,9 @@ function amain() {
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
-    textarea1.value = "\n" + haoma + " " + zhijiejia + " " + jieguo1 + " " + jieguo2 + " " + jieguo3 + "\n";
+    textarea1.value =
+        "\n" + haoma + " " + kua1 + kua2 + kua3 + "=" + (kua1 + kua2 + kua3) + " " + yier + ersan + sanyi + "=" + String(parseInt(yier) + parseInt(ersan) + parseInt(sanyi)).charAt(String(parseInt(yier) + parseInt(ersan) + parseInt(sanyi)).length - 1) +
+        "\n";
 
 
 
