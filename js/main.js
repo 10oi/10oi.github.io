@@ -102,67 +102,67 @@ function main() {
 
 
 
-    // 数组排序
-    geshihua.sort(function (x, y) {
-        return x - y;
-    });
+    // // 数组排序
+    // geshihua.sort(function (x, y) {
+    //     return x - y;
+    // });
 
-    // 值
-    var zhi0 = 0;
-    var zhi1 = 1;
-    var zhi2 = 2;
-    var zhi3 = 3;
-    var zhi4 = 4;
-    var zhi5 = 5;
-    var zhi6 = 6;
-    var zhi7 = 7;
-    var zhi8 = 8;
-    var zhi9 = 9;
+    // // 值
+    // var zhi0 = 0;
+    // var zhi1 = 1;
+    // var zhi2 = 2;
+    // var zhi3 = 3;
+    // var zhi4 = 4;
+    // var zhi5 = 5;
+    // var zhi6 = 6;
+    // var zhi7 = 7;
+    // var zhi8 = 8;
+    // var zhi9 = 9;
 
-    // 重
-    var chong0 = 0;
-    var chong1 = 0;
-    var chong2 = 0;
-    var chong3 = 0;
-    var chong4 = 0;
-    var chong5 = 0;
-    var chong6 = 0;
-    var chong7 = 0;
-    var chong8 = 0;
-    var chong9 = 0;
+    // // 重
+    // var chong0 = 0;
+    // var chong1 = 0;
+    // var chong2 = 0;
+    // var chong3 = 0;
+    // var chong4 = 0;
+    // var chong5 = 0;
+    // var chong6 = 0;
+    // var chong7 = 0;
+    // var chong8 = 0;
+    // var chong9 = 0;
 
-    for (let i = 0; i < geshihua.length; i++) {
-        if (0 == geshihua[i]) {
-            chong0++;
-        }
-        if (1 == geshihua[i]) {
-            chong1++;
-        }
-        if (2 == geshihua[i]) {
-            chong2++;
-        }
-        if (3 == geshihua[i]) {
-            chong3++;
-        }
-        if (4 == geshihua[i]) {
-            chong4++;
-        }
-        if (5 == geshihua[i]) {
-            chong5++;
-        }
-        if (6 == geshihua[i]) {
-            chong6++;
-        }
-        if (7 == geshihua[i]) {
-            chong7++;
-        }
-        if (8 == geshihua[i]) {
-            chong8++;
-        }
-        if (9 == geshihua[i]) {
-            chong9++;
-        }
-    }
+    // for (let i = 0; i < geshihua.length; i++) {
+    //     if (0 == geshihua[i]) {
+    //         chong0++;
+    //     }
+    //     if (1 == geshihua[i]) {
+    //         chong1++;
+    //     }
+    //     if (2 == geshihua[i]) {
+    //         chong2++;
+    //     }
+    //     if (3 == geshihua[i]) {
+    //         chong3++;
+    //     }
+    //     if (4 == geshihua[i]) {
+    //         chong4++;
+    //     }
+    //     if (5 == geshihua[i]) {
+    //         chong5++;
+    //     }
+    //     if (6 == geshihua[i]) {
+    //         chong6++;
+    //     }
+    //     if (7 == geshihua[i]) {
+    //         chong7++;
+    //     }
+    //     if (8 == geshihua[i]) {
+    //         chong8++;
+    //     }
+    //     if (9 == geshihua[i]) {
+    //         chong9++;
+    //     }
+    // }
 
 
 
@@ -266,67 +266,67 @@ function main() {
 
 
 
-    // 数组排序
-    geshihua1.sort(function (x, y) {
-        return x - y;
-    });
+    // // 数组排序
+    // geshihua1.sort(function (x, y) {
+    //     return x - y;
+    // });
 
-    // 值
-    var zhi00 = 0;
-    var zhi11 = 1;
-    var zhi22 = 2;
-    var zhi33 = 3;
-    var zhi44 = 4;
-    var zhi55 = 5;
-    var zhi66 = 6;
-    var zhi77 = 7;
-    var zhi88 = 8;
-    var zhi99 = 9;
+    // // 值
+    // var zhi00 = 0;
+    // var zhi11 = 1;
+    // var zhi22 = 2;
+    // var zhi33 = 3;
+    // var zhi44 = 4;
+    // var zhi55 = 5;
+    // var zhi66 = 6;
+    // var zhi77 = 7;
+    // var zhi88 = 8;
+    // var zhi99 = 9;
 
-    // 重
-    var chong00 = 0;
-    var chong11 = 0;
-    var chong22 = 0;
-    var chong33 = 0;
-    var chong44 = 0;
-    var chong55 = 0;
-    var chong66 = 0;
-    var chong77 = 0;
-    var chong88 = 0;
-    var chong99 = 0;
+    // // 重
+    // var chong00 = 0;
+    // var chong11 = 0;
+    // var chong22 = 0;
+    // var chong33 = 0;
+    // var chong44 = 0;
+    // var chong55 = 0;
+    // var chong66 = 0;
+    // var chong77 = 0;
+    // var chong88 = 0;
+    // var chong99 = 0;
 
-    for (let i = 0; i < geshihua1.length; i++) {
-        if (0 == geshihua1[i]) {
-            chong00++;
-        }
-        if (1 == geshihua1[i]) {
-            chong11++;
-        }
-        if (2 == geshihua1[i]) {
-            chong22++;
-        }
-        if (3 == geshihua1[i]) {
-            chong33++;
-        }
-        if (4 == geshihua1[i]) {
-            chong44++;
-        }
-        if (5 == geshihua1[i]) {
-            chong55++;
-        }
-        if (6 == geshihua1[i]) {
-            chong66++;
-        }
-        if (7 == geshihua1[i]) {
-            chong77++;
-        }
-        if (8 == geshihua1[i]) {
-            chong88++;
-        }
-        if (9 == geshihua1[i]) {
-            chong99++;
-        }
-    }
+    // for (let i = 0; i < geshihua1.length; i++) {
+    //     if (0 == geshihua1[i]) {
+    //         chong00++;
+    //     }
+    //     if (1 == geshihua1[i]) {
+    //         chong11++;
+    //     }
+    //     if (2 == geshihua1[i]) {
+    //         chong22++;
+    //     }
+    //     if (3 == geshihua1[i]) {
+    //         chong33++;
+    //     }
+    //     if (4 == geshihua1[i]) {
+    //         chong44++;
+    //     }
+    //     if (5 == geshihua1[i]) {
+    //         chong55++;
+    //     }
+    //     if (6 == geshihua1[i]) {
+    //         chong66++;
+    //     }
+    //     if (7 == geshihua1[i]) {
+    //         chong77++;
+    //     }
+    //     if (8 == geshihua1[i]) {
+    //         chong88++;
+    //     }
+    //     if (9 == geshihua1[i]) {
+    //         chong99++;
+    //     }
+    // }
 
 
 
@@ -580,35 +580,64 @@ function main() {
     // 内容
     var haoma = input1.value + input2.value + input3.value;
 
-    var zhiliebiao1 = zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9;
-    var chongliebiao1 = chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9;
+    // var zhiliebiao1 = zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9;
+    // var chongliebiao1 = chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9;
 
-    var zhiliebiao2 = zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99;
-    var chongliebiao2 = chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99;
+    // var zhiliebiao2 = zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99;
+    // var chongliebiao2 = chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99;
 
     var shuzi = "<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>" + " <0>";
+    var shuzi1 ="<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>";
 
     var jian = yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999;
     var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888;
+
+    var a1 = String(parseInt(yi000) + parseInt(er000) + parseInt(san000)).charAt(String(parseInt(yi000) + parseInt(er000) + parseInt(san000)).length - 1);
+    var a2 = String(parseInt(yi111) + parseInt(er111) + parseInt(san111)).charAt(String(parseInt(yi111) + parseInt(er111) + parseInt(san111)).length - 1);
+    var a3 = String(parseInt(yi222) + parseInt(er222) + parseInt(san222)).charAt(String(parseInt(yi222) + parseInt(er222) + parseInt(san222)).length - 1);
+    var a4 = String(parseInt(yi333) + parseInt(er333) + parseInt(san333)).charAt(String(parseInt(yi333) + parseInt(er333) + parseInt(san333)).length - 1);
+    var a5 = String(parseInt(yi444) + parseInt(er444) + parseInt(san444)).charAt(String(parseInt(yi444) + parseInt(er444) + parseInt(san444)).length - 1);
+    var a6 = String(parseInt(yi555) + parseInt(er555) + parseInt(san555)).charAt(String(parseInt(yi555) + parseInt(er555) + parseInt(san555)).length - 1);
+    var a7 = String(parseInt(yi666) + parseInt(er666) + parseInt(san666)).charAt(String(parseInt(yi666) + parseInt(er666) + parseInt(san666)).length - 1);
+    var a8 = String(parseInt(yi777) + parseInt(er777) + parseInt(san777)).charAt(String(parseInt(yi777) + parseInt(er777) + parseInt(san777)).length - 1);
+    var a9 = String(parseInt(yi888) + parseInt(er888) + parseInt(san888)).charAt(String(parseInt(yi888) + parseInt(er888) + parseInt(san888)).length - 1);
+    var a10 = String(parseInt(yi999) + parseInt(er999) + parseInt(san999)).charAt(String(parseInt(yi999) + parseInt(er999) + parseInt(san999)).length - 1);
+
+    var b1 = String(parseInt(yi0000) + parseInt(er0000) + parseInt(san0000)).charAt(String(parseInt(yi0000) + parseInt(er0000) + parseInt(san0000)).length - 1);
+    var b2 = String(parseInt(yi1111) + parseInt(er1111) + parseInt(san1111)).charAt(String(parseInt(yi1111) + parseInt(er1111) + parseInt(san1111)).length - 1);
+    var b3 = String(parseInt(yi2222) + parseInt(er2222) + parseInt(san2222)).charAt(String(parseInt(yi2222) + parseInt(er2222) + parseInt(san2222)).length - 1);
+    var b4 = String(parseInt(yi3333) + parseInt(er3333) + parseInt(san3333)).charAt(String(parseInt(yi3333) + parseInt(er3333) + parseInt(san3333)).length - 1);
+    var b5 = String(parseInt(yi4444) + parseInt(er4444) + parseInt(san4444)).charAt(String(parseInt(yi4444) + parseInt(er4444) + parseInt(san4444)).length - 1);
+    var b6 = String(parseInt(yi5555) + parseInt(er5555) + parseInt(san5555)).charAt(String(parseInt(yi5555) + parseInt(er5555) + parseInt(san5555)).length - 1);
+    var b7 = String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).charAt(String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).length - 1);
+    var b8 = String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).charAt(String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).length - 1);
+    var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
+
+    var jianhe = a1 + " " + a2 + " " + a3 + " " + a4 + " " + a5 + " " + a6 + " " + a7 + " " + a8 + " " + a9 + " " + a10;
+    var jianhe1 = b1 + " " + b2 + " " + b3 + " " + b4 + " " + b5 + " " + b6 + " " + b7 + " " + b8 + " " + b9;
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
     textarea1.value =
         "\n" + "号码：" + haoma +
-        "\n" + a +
-        "\n" + "值 " + zhiliebiao1 + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
-        "\n" + "重 " + chongliebiao1 +
-        "\n" + b +
-        "\n" + "值 " + zhiliebiao2 + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
-        "\n" + "重 " + chongliebiao2 +
+        "\n" + a + " 位" + (shuzu1[shuzu1.length - 1] + 1) +
         "\n" + shuzi +
         "\n" + jian +
-        "\n" + shuzi +
+        "\n" + jianhe +
+        "\n" + b + " 位" + (shuzu11[shuzu11.length - 1] + 1) +
+        "\n" + shuzi1 +
         "\n" + jian1 +
+        "\n" + jianhe1 +
         "\n";
 
 
 
+
+    // "\n" + "值 " + zhiliebiao1 + 
+    // "\n" + "重 " + chongliebiao1 +
+
+    // "\n" + "值 " + zhiliebiao2 + 
+    // "\n" + "重 " + chongliebiao2 +
 
 
 
