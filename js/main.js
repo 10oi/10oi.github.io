@@ -587,7 +587,7 @@ function main() {
     // var chongliebiao2 = chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99;
 
     var shuzi = "<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>" + " <0>";
-    var shuzi1 ="<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>";
+    var shuzi1 = "<1>" + " <2>" + " <3>" + " <4>" + " <5>" + " <6>" + " <7>" + " <8>" + " <9>";
 
     var jian = yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999;
     var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888;
@@ -613,8 +613,9 @@ function main() {
     var b8 = String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).charAt(String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).length - 1);
     var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
 
-    var jianhe = a1 + " " + a2 + " " + a3 + " " + a4 + " " + a5 + " " + a6 + " " + a7 + " " + a8 + " " + a9 + " " + a10;
-    var jianhe1 = b1 + " " + b2 + " " + b3 + " " + b4 + " " + b5 + " " + b6 + " " + b7 + " " + b8 + " " + b9;
+    var jianhe = "  " + a1 + "     " + a2 + "     " + a3 + "     " + a4 + "     " + a5 + "     " + a6 + "     " + a7 + "     " + a8 + "     " + a9 + "     " + a10;
+    var jianhe1 = "  " + b1 + "     " + b2 + "     " + b3 + "     " + b4 + "     " + b5 + "     " + b6 + "     " + b7 + "     " + b8 + "     " + b9;
+
 
     // 文本域
     var textarea1 = document.getElementById("textarea1");
