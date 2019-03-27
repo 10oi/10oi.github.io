@@ -625,8 +625,8 @@ function main() {
     // var zhiliebiao2 = zhi00 + " " + zhi11 + " " + zhi22 + " " + zhi33 + " " + zhi44 + " " + zhi55 + " " + zhi66 + " " + zhi77 + " " + zhi88 + " " + zhi99;
     // var chongliebiao2 = chong00 + " " + chong11 + " " + chong22 + " " + chong33 + " " + chong44 + " " + chong55 + " " + chong66 + " " + chong77 + " " + chong88 + " " + chong99;
 
-    var shuzi = "  1" + "      2" + "      3" + "      4" + "     5" + "      6" + "      7" + "     8" + "     9" + "      0";
-    var shuzi1 = "  1" + "      2" + "      3" + "      4" + "     5" + "      6" + "      7" + "     8" + "     9" + "      0";
+    // var shuzi = "  1" + "      2" + "      3" + "      4" + "     5" + "      6" + "      7" + "     8" + "     9" + "      0";
+    // var shuzi1 = "  1" + "      2" + "      3" + "      4" + "     5" + "      6" + "      7" + "     8" + "     9" + "      0";
 
     var jian = yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999;
     var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888 + " " + yi9999 + er9999 + san9999;
@@ -666,8 +666,18 @@ function main() {
     var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
 
 
+    var c1 = String(parseInt(num1) + parseInt(num2) + parseInt(num3)).charAt(String(parseInt(num1) + parseInt(num2) + parseInt(num3)).length - 1);
+    var c2 = String(parseInt(yi) + parseInt(er) + parseInt(san)).charAt(String(parseInt(yi) + parseInt(er) + parseInt(san)).length - 1);
+    var c3 = String(parseInt(yi1) + parseInt(er1) + parseInt(san1)).charAt(String(parseInt(yi1) + parseInt(er1) + parseInt(san1)).length - 1);
+    var c4 = String(parseInt(yi2) + parseInt(er2) + parseInt(san2)).charAt(String(parseInt(yi2) + parseInt(er2) + parseInt(san2)).length - 1);
+    var c5 = String(parseInt(yi3) + parseInt(er3) + parseInt(san3)).charAt(String(parseInt(yi3) + parseInt(er3) + parseInt(san3)).length - 1);
+    var c6 = String(parseInt(yi4) + parseInt(er4) + parseInt(san4)).charAt(String(parseInt(yi4) + parseInt(er4) + parseInt(san4)).length - 1);
+    var c7 = String(parseInt(yi5) + parseInt(er5) + parseInt(san5)).charAt(String(parseInt(yi5) + parseInt(er5) + parseInt(san5)).length - 1);
+    var c8 = String(parseInt(yi6) + parseInt(er6) + parseInt(san6)).charAt(String(parseInt(yi6) + parseInt(er6) + parseInt(san6)).length - 1);
+    var c9 = String(parseInt(yi7) + parseInt(er7) + parseInt(san7)).charAt(String(parseInt(yi7) + parseInt(er7) + parseInt(san7)).length - 1);
+    var c10 = String(parseInt(yi8) + parseInt(er8) + parseInt(san8)).charAt(String(parseInt(yi8) + parseInt(er8) + parseInt(san8)).length - 1);
 
-
+    var suanhoujiahe = "&nbsp;&nbsp;" + c1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c10;
 
 
 
@@ -680,8 +690,8 @@ function main() {
     var haomaId = document.getElementById("haomaId");
     haomaId.innerText = "号码：" + haoma;
 
-    var zhijiejiaId = document.getElementById("zhijiejiaId");
-    zhijiejiaId.innerText = a;
+    // var zhijiejiaId = document.getElementById("zhijiejiaId");
+    // zhijiejiaId.innerText = a;
 
     var shuziId = document.getElementById("shuziId");
     shuziId.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
@@ -690,11 +700,16 @@ function main() {
     var jianheId = document.getElementById("jianheId");
     jianheId.innerHTML = jianhe;
 
-    var suanhoujiaId = document.getElementById("suanhoujiaId");
-    suanhoujiaId.innerText = b;
-
     var shuzi1Id = document.getElementById("shuzi1Id");
     shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
+    var suanhoujiaId = document.getElementById("suanhoujiaId");
+    suanhoujiaId.innerText = b;
+    var suanhoujiaheId = document.getElementById("suanhoujiaheId");
+    suanhoujiaheId.innerHTML = suanhoujiahe;
+
+
+    var shuzi2Id = document.getElementById("shuzi2Id");
+    shuzi2Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
     var jian1Id = document.getElementById("jian1Id");
     jian1Id.innerText = jian1;
     var jianhe1Id = document.getElementById("jianhe1Id");
