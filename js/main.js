@@ -642,8 +642,8 @@ function main() {
     var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
     var b10 = String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).charAt(String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).length - 1);
 
-    var jianhe = "  " + a1 + "      " + a2 + "      " + a3 + "      " + a4 + "     " + a5 + "      " + a6 + "      " + a7 + "     " + a8 + "     " + a9 + "      " + a10;
-    var jianhe1 = "  " + b1 + "      " + b2 + "      " + b3 + "      " + b4 + "     " + b5 + "      " + b6 + "      " + b7 + "     " + b8 + "     " + b9 + "      " + b10;
+    var jianhe = "&nbsp;&nbsp;" + a1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a10;
+    var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
 
 
 
@@ -654,19 +654,34 @@ function main() {
 
 
 
-    // 文本域
-    var textarea1 = document.getElementById("textarea1");
-    textarea1.value =
-        "\n" + "号码：" + haoma +
-        "\n" + a +
-        "\n" + shuzi +
-        "\n" + jian +
-        "\n" + jianhe +
-        "\n" + b +
-        "\n" + shuzi1 +
-        "\n" + jian1 +
-        "\n" + jianhe1 +
-        "\n";
+    var huanhangId = document.getElementById("huanhangId");
+    huanhangId.innerText = "\n";
+
+    var haomaId = document.getElementById("haomaId");
+    haomaId.innerText = "号码：" + haoma;
+
+    var zhijiejiaId = document.getElementById("zhijiejiaId");
+    zhijiejiaId.innerText = a;
+
+    var shuziId = document.getElementById("shuziId");
+    shuziId.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
+    var jianId = document.getElementById("jianId");
+    jianId.innerText = jian;
+    var jianheId = document.getElementById("jianheId");
+    jianheId.innerHTML = jianhe;
+
+    var suanhoujiaId = document.getElementById("suanhoujiaId");
+    suanhoujiaId.innerText = b;
+
+    var shuzi1Id = document.getElementById("shuzi1Id");
+    shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
+    var jian1Id = document.getElementById("jian1Id");
+    jian1Id.innerText = jian1;
+    var jianhe1Id = document.getElementById("jianhe1Id");
+    jianhe1Id.innerHTML = jianhe1;
+
+    var huanhang1Id = document.getElementById("huanhang1Id");
+    huanhang1Id.innerText = "\n";
 
     // " 位" + (shuzu1[shuzu1.length - 1] + 1) +
 
@@ -707,8 +722,21 @@ function main() {
 
     // 复制
     document.getElementById("btn2").onclick = function () {
-        textarea1.select();
-        document.execCommand("Copy");
+        var divText = document.getElementById("div");
+        if (document.body.createTextRange) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(divText);
+            range.select();
+        } else if (window.getSelection) {
+            var selection = window.getSelection();
+            var range = document.createRange();
+            range.selectNodeContents(divText);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        } else {
+            alert("none");
+        }
+        document.execCommand('Copy', 'false', null);
     }
 }
 
