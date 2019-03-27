@@ -662,8 +662,8 @@ function main() {
     var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
     var b10 = String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).charAt(String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).length - 1);
 
-    var jianhe = "&nbsp;&nbsp;" + a1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a10;
-    var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
+    var jianhe = "&nbsp;&nbsp;" + a1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a10;
+    var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
 
 
 
@@ -684,7 +684,7 @@ function main() {
     zhijiejiaId.innerText = a;
 
     var shuziId = document.getElementById("shuziId");
-    shuziId.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
+    shuziId.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
     var jianId = document.getElementById("jianId");
     jianId.innerText = jian;
     var jianheId = document.getElementById("jianheId");
@@ -694,7 +694,7 @@ function main() {
     suanhoujiaId.innerText = b;
 
     var shuzi1Id = document.getElementById("shuzi1Id");
-    shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
+    shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
     var jian1Id = document.getElementById("jian1Id");
     jian1Id.innerText = jian1;
     var jianhe1Id = document.getElementById("jianhe1Id");
