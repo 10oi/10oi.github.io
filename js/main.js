@@ -640,9 +640,10 @@ function main() {
     var b7 = String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).charAt(String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).length - 1);
     var b8 = String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).charAt(String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).length - 1);
     var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
+    var b10 = String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).charAt(String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).length - 1);
 
     var jianhe = "  " + a1 + "      " + a2 + "      " + a3 + "      " + a4 + "     " + a5 + "      " + a6 + "      " + a7 + "     " + a8 + "     " + a9 + "      " + a10;
-    var jianhe1 = "  " + b1 + "      " + b2 + "      " + b3 + "      " + b4 + "     " + b5 + "      " + b6 + "      " + b7 + "     " + b8 + "     " + b9;
+    var jianhe1 = "  " + b1 + "      " + b2 + "      " + b3 + "      " + b4 + "     " + b5 + "      " + b6 + "      " + b7 + "     " + b8 + "     " + b9 + "      " + b10;
 
 
 
