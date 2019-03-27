@@ -53,37 +53,49 @@ function main() {
     // 直接加数组
     var shuzu = new Array(yiyi, erer, sansan, yiyi1, erer1, sansan1, yiyi2, erer2, sansan2, yiyi3, erer3, sansan3, yiyi4, erer4, sansan4, yiyi5, erer5, sansan5, yiyi6, erer6, sansan6, yiyi7, erer7, sansan7, yiyi8, erer8, sansan8);
 
-    // 位置
-    var xianhou0 = shuzu.indexOf("0");
-    var xianhou1 = shuzu.indexOf("1");
-    var xianhou2 = shuzu.indexOf("2");
-    var xianhou3 = shuzu.indexOf("3");
-    var xianhou4 = shuzu.indexOf("4");
-    var xianhou5 = shuzu.indexOf("5");
-    var xianhou6 = shuzu.indexOf("6");
-    var xianhou7 = shuzu.indexOf("7");
-    var xianhou8 = shuzu.indexOf("8");
-    var xianhou9 = shuzu.indexOf("9");
+    // // 位置
+    // var xianhou0 = shuzu.indexOf("0");
+    // var xianhou1 = shuzu.indexOf("1");
+    // var xianhou2 = shuzu.indexOf("2");
+    // var xianhou3 = shuzu.indexOf("3");
+    // var xianhou4 = shuzu.indexOf("4");
+    // var xianhou5 = shuzu.indexOf("5");
+    // var xianhou6 = shuzu.indexOf("6");
+    // var xianhou7 = shuzu.indexOf("7");
+    // var xianhou8 = shuzu.indexOf("8");
+    // var xianhou9 = shuzu.indexOf("9");
 
-    // 位置数组
-    var shuzu1 = new Array(xianhou0, xianhou1, xianhou2, xianhou3, xianhou4, xianhou5, xianhou6, xianhou7, xianhou8, xianhou9);
+    // // 位置数组
+    // var shuzu1 = new Array(xianhou0, xianhou1, xianhou2, xianhou3, xianhou4, xianhou5, xianhou6, xianhou7, xianhou8, xianhou9);
 
-    // 排序
-    for (let i = 0; i < shuzu1.length - 1; i++) {
-        for (let j = 0; j < shuzu1.length - 1 - i; j++) {
-            if (shuzu1[j] > shuzu1[j + 1]) {
-                let temp = shuzu1[j];
-                shuzu1[j] = shuzu[j + 1];
-                shuzu1[j + 1] = temp;
-            }
-        }
-    }
+    // // 排序
+    // for (let i = 0; i < shuzu1.length - 1; i++) {
+    //     for (let j = 0; j < shuzu1.length - 1 - i; j++) {
+    //         if (shuzu1[j] > shuzu1[j + 1]) {
+    //             let temp = shuzu1[j];
+    //             shuzu1[j] = shuzu[j + 1];
+    //             shuzu1[j + 1] = temp;
+    //         }
+    //     }
+    // }
 
-    // 格式化
-    var geshihua = shuzu.slice(0, (shuzu1[shuzu1.length - 1] + 1))
+    // // 格式化
+    // var geshihua = shuzu.slice(0, (shuzu1[shuzu1.length - 1] + 1))
+    // var a = [];
+    // for (let i = 0; i < geshihua.length; i++) {
+    //     if (i == geshihua.length - 1) {
+    //         a = a + shuzu[i];
+    //         break;
+    //     } else if (i == 2 || i == 5 || i == 8 || i == 11 || i == 14 || i == 17 || i == 20 || i == 23 || i == 26 || i == 29) {
+    //         a = a + shuzu[i] + " ";
+    //     } else {
+    //         a = a + shuzu[i];
+    //     }
+    // }
+
     var a = [];
-    for (let i = 0; i < geshihua.length; i++) {
-        if (i == geshihua.length - 1) {
+    for (let i = 0; i < shuzu.length; i++) {
+        if (i == shuzu.length - 1) {
             a = a + shuzu[i];
             break;
         } else if (i == 2 || i == 5 || i == 8 || i == 11 || i == 14 || i == 17 || i == 20 || i == 23 || i == 26 || i == 29) {
@@ -92,8 +104,6 @@ function main() {
             a = a + shuzu[i];
         }
     }
-
-
 
 
 
@@ -217,37 +227,49 @@ function main() {
     // 每两位之和数组
     var shuzu00 = new Array(num1, num2, num3, yi, er, san, yi1, er1, san1, yi2, er2, san2, yi3, er3, san3, yi4, er4, san4, yi5, er5, san5, yi6, er6, san6, yi7, er7, san7, yi8, er8, san8);
 
-    // 位置
-    var xianhouhou0 = shuzu00.indexOf("0");
-    var xianhouhou1 = shuzu00.indexOf("1");
-    var xianhouhou2 = shuzu00.indexOf("2");
-    var xianhouhou3 = shuzu00.indexOf("3");
-    var xianhouhou4 = shuzu00.indexOf("4");
-    var xianhouhou5 = shuzu00.indexOf("5");
-    var xianhouhou6 = shuzu00.indexOf("6");
-    var xianhouhou7 = shuzu00.indexOf("7");
-    var xianhouhou8 = shuzu00.indexOf("8");
-    var xianhouhou9 = shuzu00.indexOf("9");
+    // // 位置
+    // var xianhouhou0 = shuzu00.indexOf("0");
+    // var xianhouhou1 = shuzu00.indexOf("1");
+    // var xianhouhou2 = shuzu00.indexOf("2");
+    // var xianhouhou3 = shuzu00.indexOf("3");
+    // var xianhouhou4 = shuzu00.indexOf("4");
+    // var xianhouhou5 = shuzu00.indexOf("5");
+    // var xianhouhou6 = shuzu00.indexOf("6");
+    // var xianhouhou7 = shuzu00.indexOf("7");
+    // var xianhouhou8 = shuzu00.indexOf("8");
+    // var xianhouhou9 = shuzu00.indexOf("9");
 
-    // 位置数组
-    var shuzu11 = new Array(xianhouhou0, xianhouhou1, xianhouhou2, xianhouhou3, xianhouhou4, xianhouhou5, xianhouhou6, xianhouhou7, xianhouhou8, xianhouhou9);
+    // // 位置数组
+    // var shuzu11 = new Array(xianhouhou0, xianhouhou1, xianhouhou2, xianhouhou3, xianhouhou4, xianhouhou5, xianhouhou6, xianhouhou7, xianhouhou8, xianhouhou9);
 
-    // 排序
-    for (let i = 0; i < shuzu11.length - 1; i++) {
-        for (let j = 0; j < shuzu11.length - 1 - i; j++) {
-            if (shuzu11[j] > shuzu11[j + 1]) {
-                let temp = shuzu11[j];
-                shuzu11[j] = shuzu[j + 1];
-                shuzu11[j + 1] = temp;
-            }
-        }
-    }
+    // // 排序
+    // for (let i = 0; i < shuzu11.length - 1; i++) {
+    //     for (let j = 0; j < shuzu11.length - 1 - i; j++) {
+    //         if (shuzu11[j] > shuzu11[j + 1]) {
+    //             let temp = shuzu11[j];
+    //             shuzu11[j] = shuzu[j + 1];
+    //             shuzu11[j + 1] = temp;
+    //         }
+    //     }
+    // }
 
-    // 格式化
-    var geshihua1 = shuzu00.slice(0, (shuzu11[shuzu11.length - 1] + 1));
+    // // 格式化
+    // var geshihua1 = shuzu00.slice(0, (shuzu11[shuzu11.length - 1] + 1));
+    // var b = [];
+    // for (let i = 0; i < geshihua1.length; i++) {
+    //     if (i == geshihua1.length - 1) {
+    //         b = b + shuzu00[i];
+    //         break;
+    //     } else if (i == 2 || i == 5 || i == 8 || i == 11 || i == 14 || i == 17 || i == 20 || i == 23 || i == 26 || i == 29) {
+    //         b = b + shuzu00[i] + " ";
+    //     } else {
+    //         b = b + shuzu00[i];
+    //     }
+    // }
+
     var b = [];
-    for (let i = 0; i < geshihua1.length; i++) {
-        if (i == geshihua1.length - 1) {
+    for (let i = 0; i < shuzu00.length; i++) {
+        if (i == shuzu00.length - 1) {
             b = b + shuzu00[i];
             break;
         } else if (i == 2 || i == 5 || i == 8 || i == 11 || i == 14 || i == 17 || i == 20 || i == 23 || i == 26 || i == 29) {
@@ -256,8 +278,6 @@ function main() {
             b = b + shuzu00[i];
         }
     }
-
-
 
 
 
