@@ -17,12 +17,16 @@ p {
     color: rgb(109, 0, 0);
 } */
 
-.suanhoujiaClass{
-    color: rgb(109, 0, 0);
+.shuziClass {
+    color: rgb(131, 85, 0);
+}
+
+.suanhoujiaClass {
+    color: rgb(255, 0, 0);
 }
 
 .jianClass {
-    color: rgb(0, 100, 8);
+    color: rgb(0, 117, 10);
 }
 
 span {
