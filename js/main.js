@@ -407,206 +407,206 @@ function main() {
 
 
 
-    // 分别减
-    var yi0000 = parseInt(input1.value) - 1;
-    var er0000 = parseInt(input2.value) - 1;
-    var san0000 = parseInt(input3.value) - 1;
+    // // 分别减
+    // var yi0000 = parseInt(input1.value) - 1;
+    // var er0000 = parseInt(input2.value) - 1;
+    // var san0000 = parseInt(input3.value) - 1;
 
-    if (yi0000 == -1) {
-        yi0000 = 9;
-    } else {
-        yi0000 = String(yi0000);
-    }
-    if (er0000 == -1) {
-        er0000 = 9;
-    } else {
-        er0000 = String(er0000);
-    }
-    if (san0000 == -1) {
-        san0000 = 9;
-    } else {
-        san0000 = String(san0000);
-    }
+    // if (yi0000 == -1) {
+    //     yi0000 = 9;
+    // } else {
+    //     yi0000 = String(yi0000);
+    // }
+    // if (er0000 == -1) {
+    //     er0000 = 9;
+    // } else {
+    //     er0000 = String(er0000);
+    // }
+    // if (san0000 == -1) {
+    //     san0000 = 9;
+    // } else {
+    //     san0000 = String(san0000);
+    // }
 
-    var yi1111 = parseInt(yi0000) - 1;
-    var er1111 = parseInt(er0000) - 1;
-    var san1111 = parseInt(san0000) - 1;
+    // var yi1111 = parseInt(yi0000) - 1;
+    // var er1111 = parseInt(er0000) - 1;
+    // var san1111 = parseInt(san0000) - 1;
 
-    if (yi1111 == -1) {
-        yi1111 = 9;
-    } else {
-        yi1111 = String(yi1111);
-    }
-    if (er1111 == -1) {
-        er1111 = 9;
-    } else {
-        er1111 = String(er1111);
-    }
-    if (san1111 == -1) {
-        san1111 = 9;
-    } else {
-        san1111 = String(san1111);
-    }
+    // if (yi1111 == -1) {
+    //     yi1111 = 9;
+    // } else {
+    //     yi1111 = String(yi1111);
+    // }
+    // if (er1111 == -1) {
+    //     er1111 = 9;
+    // } else {
+    //     er1111 = String(er1111);
+    // }
+    // if (san1111 == -1) {
+    //     san1111 = 9;
+    // } else {
+    //     san1111 = String(san1111);
+    // }
 
-    var yi2222 = parseInt(yi1111) - 1;
-    var er2222 = parseInt(er1111) - 1;
-    var san2222 = parseInt(san1111) - 1;
+    // var yi2222 = parseInt(yi1111) - 1;
+    // var er2222 = parseInt(er1111) - 1;
+    // var san2222 = parseInt(san1111) - 1;
 
-    if (yi2222 == -1) {
-        yi2222 = 9;
-    } else {
-        yi2222 = String(yi2222);
-    }
-    if (er2222 == -1) {
-        er2222 = 9;
-    } else {
-        er2222 = String(er2222);
-    }
-    if (san2222 == -1) {
-        san2222 = 9;
-    } else {
-        san2222 = String(san2222);
-    }
+    // if (yi2222 == -1) {
+    //     yi2222 = 9;
+    // } else {
+    //     yi2222 = String(yi2222);
+    // }
+    // if (er2222 == -1) {
+    //     er2222 = 9;
+    // } else {
+    //     er2222 = String(er2222);
+    // }
+    // if (san2222 == -1) {
+    //     san2222 = 9;
+    // } else {
+    //     san2222 = String(san2222);
+    // }
 
-    var yi3333 = parseInt(yi2222) - 1;
-    var er3333 = parseInt(er2222) - 1;
-    var san3333 = parseInt(san2222) - 1;
+    // var yi3333 = parseInt(yi2222) - 1;
+    // var er3333 = parseInt(er2222) - 1;
+    // var san3333 = parseInt(san2222) - 1;
 
-    if (yi3333 == -1) {
-        yi3333 = 9;
-    } else {
-        yi3333 = String(yi3333);
-    }
-    if (er3333 == -1) {
-        er3333 = 9;
-    } else {
-        er3333 = String(er3333);
-    }
-    if (san3333 == -1) {
-        san3333 = 9;
-    } else {
-        san3333 = String(san3333);
-    }
+    // if (yi3333 == -1) {
+    //     yi3333 = 9;
+    // } else {
+    //     yi3333 = String(yi3333);
+    // }
+    // if (er3333 == -1) {
+    //     er3333 = 9;
+    // } else {
+    //     er3333 = String(er3333);
+    // }
+    // if (san3333 == -1) {
+    //     san3333 = 9;
+    // } else {
+    //     san3333 = String(san3333);
+    // }
 
-    var yi4444 = parseInt(yi3333) - 1;
-    var er4444 = parseInt(er3333) - 1;
-    var san4444 = parseInt(san3333) - 1;
+    // var yi4444 = parseInt(yi3333) - 1;
+    // var er4444 = parseInt(er3333) - 1;
+    // var san4444 = parseInt(san3333) - 1;
 
-    if (yi4444 == -1) {
-        yi4444 = 9;
-    } else {
-        yi4444 = String(yi4444);
-    }
-    if (er4444 == -1) {
-        er4444 = 9;
-    } else {
-        er4444 = String(er4444);
-    }
-    if (san4444 == -1) {
-        san4444 = 9;
-    } else {
-        san4444 = String(san4444);
-    }
+    // if (yi4444 == -1) {
+    //     yi4444 = 9;
+    // } else {
+    //     yi4444 = String(yi4444);
+    // }
+    // if (er4444 == -1) {
+    //     er4444 = 9;
+    // } else {
+    //     er4444 = String(er4444);
+    // }
+    // if (san4444 == -1) {
+    //     san4444 = 9;
+    // } else {
+    //     san4444 = String(san4444);
+    // }
 
-    var yi5555 = parseInt(yi4444) - 1;
-    var er5555 = parseInt(er4444) - 1;
-    var san5555 = parseInt(san4444) - 1;
+    // var yi5555 = parseInt(yi4444) - 1;
+    // var er5555 = parseInt(er4444) - 1;
+    // var san5555 = parseInt(san4444) - 1;
 
-    if (yi5555 == -1) {
-        yi5555 = 9;
-    } else {
-        yi5555 = String(yi5555);
-    }
-    if (er5555 == -1) {
-        er5555 = 9;
-    } else {
-        er5555 = String(er5555);
-    }
-    if (san5555 == -1) {
-        san5555 = 9;
-    } else {
-        san5555 = String(san5555);
-    }
+    // if (yi5555 == -1) {
+    //     yi5555 = 9;
+    // } else {
+    //     yi5555 = String(yi5555);
+    // }
+    // if (er5555 == -1) {
+    //     er5555 = 9;
+    // } else {
+    //     er5555 = String(er5555);
+    // }
+    // if (san5555 == -1) {
+    //     san5555 = 9;
+    // } else {
+    //     san5555 = String(san5555);
+    // }
 
-    var yi6666 = parseInt(yi5555) - 1;
-    var er6666 = parseInt(er5555) - 1;
-    var san6666 = parseInt(san5555) - 1;
+    // var yi6666 = parseInt(yi5555) - 1;
+    // var er6666 = parseInt(er5555) - 1;
+    // var san6666 = parseInt(san5555) - 1;
 
-    if (yi6666 == -1) {
-        yi6666 = 9;
-    } else {
-        yi6666 = String(yi6666);
-    }
-    if (er6666 == -1) {
-        er6666 = 9;
-    } else {
-        er6666 = String(er6666);
-    }
-    if (san6666 == -1) {
-        san6666 = 9;
-    } else {
-        san6666 = String(san6666);
-    }
+    // if (yi6666 == -1) {
+    //     yi6666 = 9;
+    // } else {
+    //     yi6666 = String(yi6666);
+    // }
+    // if (er6666 == -1) {
+    //     er6666 = 9;
+    // } else {
+    //     er6666 = String(er6666);
+    // }
+    // if (san6666 == -1) {
+    //     san6666 = 9;
+    // } else {
+    //     san6666 = String(san6666);
+    // }
 
-    var yi7777 = parseInt(yi6666) - 1;
-    var er7777 = parseInt(er6666) - 1;
-    var san7777 = parseInt(san6666) - 1;
+    // var yi7777 = parseInt(yi6666) - 1;
+    // var er7777 = parseInt(er6666) - 1;
+    // var san7777 = parseInt(san6666) - 1;
 
-    if (yi7777 == -1) {
-        yi7777 = 9;
-    } else {
-        yi7777 = String(yi7777);
-    }
-    if (er7777 == -1) {
-        er7777 = 9;
-    } else {
-        er7777 = String(er7777);
-    }
-    if (san7777 == -1) {
-        san7777 = 9;
-    } else {
-        san7777 = String(san7777);
-    }
+    // if (yi7777 == -1) {
+    //     yi7777 = 9;
+    // } else {
+    //     yi7777 = String(yi7777);
+    // }
+    // if (er7777 == -1) {
+    //     er7777 = 9;
+    // } else {
+    //     er7777 = String(er7777);
+    // }
+    // if (san7777 == -1) {
+    //     san7777 = 9;
+    // } else {
+    //     san7777 = String(san7777);
+    // }
 
-    var yi8888 = parseInt(yi7777) - 1;
-    var er8888 = parseInt(er7777) - 1;
-    var san8888 = parseInt(san7777) - 1;
+    // var yi8888 = parseInt(yi7777) - 1;
+    // var er8888 = parseInt(er7777) - 1;
+    // var san8888 = parseInt(san7777) - 1;
 
-    if (yi8888 == -1) {
-        yi8888 = 9;
-    } else {
-        yi8888 = String(yi8888);
-    }
-    if (er8888 == -1) {
-        er8888 = 9;
-    } else {
-        er8888 = String(er8888);
-    }
-    if (san8888 == -1) {
-        san8888 = 9;
-    } else {
-        san8888 = String(san8888);
-    }
+    // if (yi8888 == -1) {
+    //     yi8888 = 9;
+    // } else {
+    //     yi8888 = String(yi8888);
+    // }
+    // if (er8888 == -1) {
+    //     er8888 = 9;
+    // } else {
+    //     er8888 = String(er8888);
+    // }
+    // if (san8888 == -1) {
+    //     san8888 = 9;
+    // } else {
+    //     san8888 = String(san8888);
+    // }
 
-    var yi9999 = parseInt(yi8888) - 1;
-    var er9999 = parseInt(er8888) - 1;
-    var san9999 = parseInt(san8888) - 1;
+    // var yi9999 = parseInt(yi8888) - 1;
+    // var er9999 = parseInt(er8888) - 1;
+    // var san9999 = parseInt(san8888) - 1;
 
-    if (yi9999 == -1) {
-        yi9999 = 9;
-    } else {
-        yi9999 = String(yi9999);
-    }
-    if (er9999 == -1) {
-        er9999 = 9;
-    } else {
-        er9999 = String(er9999);
-    }
-    if (san9999 == -1) {
-        san9999 = 9;
-    } else {
-        san9999 = String(san9999);
-    }
+    // if (yi9999 == -1) {
+    //     yi9999 = 9;
+    // } else {
+    //     yi9999 = String(yi9999);
+    // }
+    // if (er9999 == -1) {
+    //     er9999 = 9;
+    // } else {
+    //     er9999 = String(er9999);
+    // }
+    // if (san9999 == -1) {
+    //     san9999 = 9;
+    // } else {
+    //     san9999 = String(san9999);
+    // }
 
 
 
@@ -629,7 +629,7 @@ function main() {
     // var shuzi1 = "  1" + "      2" + "      3" + "      4" + "     5" + "      6" + "      7" + "     8" + "     9" + "      0";
 
     var jian = yi000 + er000 + san000 + " " + yi111 + er111 + san111 + " " + yi222 + er222 + san222 + " " + yi333 + er333 + san333 + " " + yi444 + er444 + san444 + " " + yi555 + er555 + san555 + " " + yi666 + er666 + san666 + " " + yi777 + er777 + san777 + " " + yi888 + er888 + san888 + " " + yi999 + er999 + san999;
-    var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888 + " " + yi9999 + er9999 + san9999;
+    // var jian1 = yi0000 + er0000 + san0000 + " " + yi1111 + er1111 + san1111 + " " + yi2222 + er2222 + san2222 + " " + yi3333 + er3333 + san3333 + " " + yi4444 + er4444 + san4444 + " " + yi5555 + er5555 + san5555 + " " + yi6666 + er6666 + san6666 + " " + yi7777 + er7777 + san7777 + " " + yi8888 + er8888 + san8888 + " " + yi9999 + er9999 + san9999;
 
 
 
@@ -651,19 +651,19 @@ function main() {
     var a9 = String(parseInt(yi888) + parseInt(er888) + parseInt(san888)).charAt(String(parseInt(yi888) + parseInt(er888) + parseInt(san888)).length - 1);
     var a10 = String(parseInt(yi999) + parseInt(er999) + parseInt(san999)).charAt(String(parseInt(yi999) + parseInt(er999) + parseInt(san999)).length - 1);
 
-    var b1 = String(parseInt(yi0000) + parseInt(er0000) + parseInt(san0000)).charAt(String(parseInt(yi0000) + parseInt(er0000) + parseInt(san0000)).length - 1);
-    var b2 = String(parseInt(yi1111) + parseInt(er1111) + parseInt(san1111)).charAt(String(parseInt(yi1111) + parseInt(er1111) + parseInt(san1111)).length - 1);
-    var b3 = String(parseInt(yi2222) + parseInt(er2222) + parseInt(san2222)).charAt(String(parseInt(yi2222) + parseInt(er2222) + parseInt(san2222)).length - 1);
-    var b4 = String(parseInt(yi3333) + parseInt(er3333) + parseInt(san3333)).charAt(String(parseInt(yi3333) + parseInt(er3333) + parseInt(san3333)).length - 1);
-    var b5 = String(parseInt(yi4444) + parseInt(er4444) + parseInt(san4444)).charAt(String(parseInt(yi4444) + parseInt(er4444) + parseInt(san4444)).length - 1);
-    var b6 = String(parseInt(yi5555) + parseInt(er5555) + parseInt(san5555)).charAt(String(parseInt(yi5555) + parseInt(er5555) + parseInt(san5555)).length - 1);
-    var b7 = String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).charAt(String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).length - 1);
-    var b8 = String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).charAt(String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).length - 1);
-    var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
-    var b10 = String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).charAt(String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).length - 1);
+    // var b1 = String(parseInt(yi0000) + parseInt(er0000) + parseInt(san0000)).charAt(String(parseInt(yi0000) + parseInt(er0000) + parseInt(san0000)).length - 1);
+    // var b2 = String(parseInt(yi1111) + parseInt(er1111) + parseInt(san1111)).charAt(String(parseInt(yi1111) + parseInt(er1111) + parseInt(san1111)).length - 1);
+    // var b3 = String(parseInt(yi2222) + parseInt(er2222) + parseInt(san2222)).charAt(String(parseInt(yi2222) + parseInt(er2222) + parseInt(san2222)).length - 1);
+    // var b4 = String(parseInt(yi3333) + parseInt(er3333) + parseInt(san3333)).charAt(String(parseInt(yi3333) + parseInt(er3333) + parseInt(san3333)).length - 1);
+    // var b5 = String(parseInt(yi4444) + parseInt(er4444) + parseInt(san4444)).charAt(String(parseInt(yi4444) + parseInt(er4444) + parseInt(san4444)).length - 1);
+    // var b6 = String(parseInt(yi5555) + parseInt(er5555) + parseInt(san5555)).charAt(String(parseInt(yi5555) + parseInt(er5555) + parseInt(san5555)).length - 1);
+    // var b7 = String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).charAt(String(parseInt(yi6666) + parseInt(er6666) + parseInt(san6666)).length - 1);
+    // var b8 = String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).charAt(String(parseInt(yi7777) + parseInt(er7777) + parseInt(san7777)).length - 1);
+    // var b9 = String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).charAt(String(parseInt(yi8888) + parseInt(er8888) + parseInt(san8888)).length - 1);
+    // var b10 = String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).charAt(String(parseInt(yi9999) + parseInt(er9999) + parseInt(san9999)).length - 1);
 
     var jianhe = "&nbsp;&nbsp;" + a1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + a10;
-    var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
+    // var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
 
 
     var c1 = String(parseInt(num1) + parseInt(num2) + parseInt(num3)).charAt(String(parseInt(num1) + parseInt(num2) + parseInt(num3)).length - 1);
@@ -710,10 +710,10 @@ function main() {
 
     // var shuzi2Id = document.getElementById("shuzi2Id");
     // shuzi2Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
-    var jian1Id = document.getElementById("jian1Id");
-    jian1Id.innerText = jian1;
-    var jianhe1Id = document.getElementById("jianhe1Id");
-    jianhe1Id.innerHTML = jianhe1;
+    // var jian1Id = document.getElementById("jian1Id");
+    // jian1Id.innerText = jian1;
+    // var jianhe1Id = document.getElementById("jianhe1Id");
+    // jianhe1Id.innerHTML = jianhe1;
 
     var huanhang1Id = document.getElementById("huanhang1Id");
     huanhang1Id.innerText = "\n";
