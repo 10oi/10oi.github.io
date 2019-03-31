@@ -1,6 +1,6 @@
 body {
     background-color: #222;
-    font-size: 12px;
+    font-size: 14px;
     /* font-family: 'Microsoft YaHei UI'; */
 }
 
@@ -8,15 +8,15 @@ textarea {
     background-color: #222;
     color: rgb(60, 255, 148);
     /* text-align: center; */
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Microsoft YaHei UI';
     border: 1px solid rgb(255, 165, 61);
     border-radius: 2px;
 }
 
 div {
-    width: 280px;
-    height: 160px;
+    width: 320px;
+    height: 200px;
     border: 1px solid rgb(255, 165, 61);
     border-radius: 2px;
     padding-left: 8px;
@@ -79,5 +79,10 @@ a {
     color: rgb(255, 165, 61);
     margin: 6px 0 0 20px;
     text-decoration: none;
+    display: block;
+}
+
+.konghangClass {
+    margin-bottom: 1024px;
     display: block;
 }
