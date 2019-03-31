@@ -4,6 +4,16 @@ body {
     /* font-family: 'Microsoft YaHei UI'; */
 }
 
+textarea {
+    background-color: #222;
+    color: rgb(60, 255, 148);
+    /* text-align: center; */
+    font-size: 12px;
+    font-family: 'Microsoft YaHei UI';
+    border: 1px solid rgb(255, 165, 61);
+    border-radius: 2px;
+}
+
 div {
     width: 280px;
     height: 160px;
