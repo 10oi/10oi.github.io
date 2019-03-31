@@ -1,36 +1,45 @@
 body {
-    background-color: #777;
-    font-size: 14px;
-    font-family: 'Microsoft YaHei UI';
+    background-color: #222;
+    font-size: 12px;
+    /* font-family: 'Microsoft YaHei UI'; */
 }
 
 div {
-    width: 360px;
+    width: 320px;
+    height: 180px;
+    border: 1px solid rgb(255, 165, 61);
+    border-radius: 2px;
+    padding-left: 8px;
 }
 
 p {
-    background-color: #fff;
+    background-color: #222;
     margin: 0;
+    padding: 0;
+}
+
+.haomaClass {
+    color: rgb(255, 236, 130);
 }
 
 /* .zhijiejiaClass{
     color: rgb(109, 0, 0);
 } */
 
-.shuziClass {
-    color: rgb(131, 85, 0);
+.fengexianClass {
+    color: rgb(255, 161, 235);
 }
 
 .suanhoujiaClass {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 122, 122);
 }
 
 .jianClass {
-    color: rgb(0, 117, 10);
+    color: rgb(92, 252, 185);
 }
 
 span {
-    color: #fff;
+    color: rgb(255, 165, 61);
 }
 
 input {
@@ -38,26 +47,27 @@ input {
     height: 30px;
     font-size: 16px;
     text-align: center;
-    color: #fff;
-    background-color: #777;
-    border: 1px solid #fff;
+    color: rgb(255, 165, 61);
+    background-color: #222;
+    border: 1px solid rgb(255, 165, 61);
     border-radius: 4px;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 button {
     width: 128px;
     height: 40px;
     font-size: 18px;
-    color: #fff;
-    background-color: #777;
-    border: 1px solid #fff;
+    color: rgb(255, 165, 61);
+    background-color: #222;
+    border: 1px solid rgb(255, 165, 61);
     border-radius: 4px;
-    margin: 4px 0 0 16px;
+    margin: 6px 0 0 16px;
 }
 
 a {
-    color: #fff;
-    margin-left: 20px;
+    color: rgb(255, 165, 61);
+    margin: 6px 0 0 20px;
     text-decoration: none;
+    display: block;
 }
