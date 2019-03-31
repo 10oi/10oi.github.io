@@ -701,7 +701,7 @@ function main() {
     jianheId.innerHTML = jianhe;
 
     var fengexianId = document.getElementById("fengexianId");
-    fengexianId.innerText = "-----------------------------------------------";
+    fengexianId.innerText = "-------------------------------------------";
 
     var shuzi1Id = document.getElementById("shuzi1Id");
     shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
