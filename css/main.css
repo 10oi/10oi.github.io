@@ -5,8 +5,8 @@ body {
 }
 
 div {
-    width: 320px;
-    height: 180px;
+    width: 280px;
+    height: 160px;
     border: 1px solid rgb(255, 165, 61);
     border-radius: 2px;
     padding-left: 8px;
@@ -51,7 +51,7 @@ input {
     background-color: #222;
     border: 1px solid rgb(255, 165, 61);
     border-radius: 4px;
-    margin-top: 6px;
+    margin: 6px 4px 0 0;
 }
 
 button {
@@ -62,7 +62,7 @@ button {
     background-color: #222;
     border: 1px solid rgb(255, 165, 61);
     border-radius: 4px;
-    margin: 6px 0 0 16px;
+    margin: 6px 0 0 10px;
 }
 
 a {
