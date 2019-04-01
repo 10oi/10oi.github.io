@@ -17,7 +17,7 @@ textarea {
 
 div {
     width: 320px;
-    height: 200px;
+    height: 400px;
     border: 1px solid rgb(255, 165, 61);
     border-radius: 2px;
     padding-left: 8px;
@@ -47,6 +47,10 @@ p {
 
 .jianClass {
     color: rgb(92, 252, 185);
+}
+
+.shihangClass {
+    color: rgb(68, 249, 255);
 }
 
 span {
