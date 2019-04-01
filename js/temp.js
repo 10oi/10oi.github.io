@@ -48,7 +48,7 @@ function tempmain() {
 
         var jieguoSpanId = document.getElementById("jieguoSpanId");
 
-        jieguoSpanId.innerText = "结果："+ parseInt(input4.value) / parseInt(input5.value);
+        jieguoSpanId.innerText = "百期概率：" + Math.floor((parseInt(input4.value) / parseInt(input5.value)) * 10000) / 100 + "%";
     }
 }
 
