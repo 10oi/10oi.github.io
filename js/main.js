@@ -224,8 +224,8 @@ function main() {
     var er8 = String(parseInt(er7) + 1).charAt(String(parseInt(er7) + 1).length - 1);
     var san8 = String(parseInt(san7) + 1).charAt(String(parseInt(san7) + 1).length - 1);
 
-    // 每两位之和数组
-    var shuzu00 = new Array(num1, num2, num3, yi, er, san, yi1, er1, san1, yi2, er2, san2, yi3, er3, san3, yi4, er4, san4, yi5, er5, san5, yi6, er6, san6, yi7, er7, san7, yi8, er8, san8);
+    // // 每两位之和数组
+    // var shuzu00 = new Array(num1, num2, num3, yi, er, san, yi1, er1, san1, yi2, er2, san2, yi3, er3, san3, yi4, er4, san4, yi5, er5, san5, yi6, er6, san6, yi7, er7, san7, yi8, er8, san8);
 
     // // 位置
     // var xianhouhou0 = shuzu00.indexOf("0");
@@ -267,17 +267,17 @@ function main() {
     //     }
     // }
 
-    var b = [];
-    for (let i = 0; i < shuzu00.length; i++) {
-        if (i == shuzu00.length - 1) {
-            b = b + shuzu00[i];
-            break;
-        } else if (i == 2 || i == 5 || i == 8 || i == 11 || i == 14 || i == 17 || i == 20 || i == 23 || i == 26 || i == 29) {
-            b = b + shuzu00[i] + " ";
-        } else {
-            b = b + shuzu00[i];
-        }
-    }
+    // var b = [];
+    // for (let i = 0; i < shuzu00.length; i++) {
+    //     if (i == shuzu00.length - 1) {
+    //         b = b + shuzu00[i];
+    //         break;
+    //     } else if (i == 2 || i == 5 || i == 8 || i == 11 || i == 14 || i == 17 || i == 20 || i == 23 || i == 26 || i == 29) {
+    //         b = b + shuzu00[i] + " ";
+    //     } else {
+    //         b = b + shuzu00[i];
+    //     }
+    // }
 
 
 
@@ -666,18 +666,18 @@ function main() {
     // var jianhe1 = "&nbsp;&nbsp;" + b1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + b10;
 
 
-    var c1 = String(parseInt(num1) + parseInt(num2) + parseInt(num3)).charAt(String(parseInt(num1) + parseInt(num2) + parseInt(num3)).length - 1);
-    var c2 = String(parseInt(yi) + parseInt(er) + parseInt(san)).charAt(String(parseInt(yi) + parseInt(er) + parseInt(san)).length - 1);
-    var c3 = String(parseInt(yi1) + parseInt(er1) + parseInt(san1)).charAt(String(parseInt(yi1) + parseInt(er1) + parseInt(san1)).length - 1);
-    var c4 = String(parseInt(yi2) + parseInt(er2) + parseInt(san2)).charAt(String(parseInt(yi2) + parseInt(er2) + parseInt(san2)).length - 1);
-    var c5 = String(parseInt(yi3) + parseInt(er3) + parseInt(san3)).charAt(String(parseInt(yi3) + parseInt(er3) + parseInt(san3)).length - 1);
-    var c6 = String(parseInt(yi4) + parseInt(er4) + parseInt(san4)).charAt(String(parseInt(yi4) + parseInt(er4) + parseInt(san4)).length - 1);
-    var c7 = String(parseInt(yi5) + parseInt(er5) + parseInt(san5)).charAt(String(parseInt(yi5) + parseInt(er5) + parseInt(san5)).length - 1);
-    var c8 = String(parseInt(yi6) + parseInt(er6) + parseInt(san6)).charAt(String(parseInt(yi6) + parseInt(er6) + parseInt(san6)).length - 1);
-    var c9 = String(parseInt(yi7) + parseInt(er7) + parseInt(san7)).charAt(String(parseInt(yi7) + parseInt(er7) + parseInt(san7)).length - 1);
-    var c10 = String(parseInt(yi8) + parseInt(er8) + parseInt(san8)).charAt(String(parseInt(yi8) + parseInt(er8) + parseInt(san8)).length - 1);
+    // var c1 = String(parseInt(num1) + parseInt(num2) + parseInt(num3)).charAt(String(parseInt(num1) + parseInt(num2) + parseInt(num3)).length - 1);
+    // var c2 = String(parseInt(yi) + parseInt(er) + parseInt(san)).charAt(String(parseInt(yi) + parseInt(er) + parseInt(san)).length - 1);
+    // var c3 = String(parseInt(yi1) + parseInt(er1) + parseInt(san1)).charAt(String(parseInt(yi1) + parseInt(er1) + parseInt(san1)).length - 1);
+    // var c4 = String(parseInt(yi2) + parseInt(er2) + parseInt(san2)).charAt(String(parseInt(yi2) + parseInt(er2) + parseInt(san2)).length - 1);
+    // var c5 = String(parseInt(yi3) + parseInt(er3) + parseInt(san3)).charAt(String(parseInt(yi3) + parseInt(er3) + parseInt(san3)).length - 1);
+    // var c6 = String(parseInt(yi4) + parseInt(er4) + parseInt(san4)).charAt(String(parseInt(yi4) + parseInt(er4) + parseInt(san4)).length - 1);
+    // var c7 = String(parseInt(yi5) + parseInt(er5) + parseInt(san5)).charAt(String(parseInt(yi5) + parseInt(er5) + parseInt(san5)).length - 1);
+    // var c8 = String(parseInt(yi6) + parseInt(er6) + parseInt(san6)).charAt(String(parseInt(yi6) + parseInt(er6) + parseInt(san6)).length - 1);
+    // var c9 = String(parseInt(yi7) + parseInt(er7) + parseInt(san7)).charAt(String(parseInt(yi7) + parseInt(er7) + parseInt(san7)).length - 1);
+    // var c10 = String(parseInt(yi8) + parseInt(er8) + parseInt(san8)).charAt(String(parseInt(yi8) + parseInt(er8) + parseInt(san8)).length - 1);
 
-    var suanhoujiahe = "&nbsp;&nbsp;" + c1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c10;
+    // var suanhoujiahe = "&nbsp;&nbsp;" + c1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c4 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c5 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c6 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c7 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c8 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c9 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + c10;
 
 
 
@@ -702,17 +702,17 @@ function main() {
 
 
 
-    var fengexianId = document.getElementById("fengexianId");
-    fengexianId.innerText = "-------------------------------------------";
+    // var fengexianId = document.getElementById("fengexianId");
+    // fengexianId.innerText = "-------------------------------------------";
 
 
 
-    var shuzi1Id = document.getElementById("shuzi1Id");
-    shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
-    var suanhoujiaId = document.getElementById("suanhoujiaId");
-    suanhoujiaId.innerText = b;
-    var suanhoujiaheId = document.getElementById("suanhoujiaheId");
-    suanhoujiaheId.innerHTML = suanhoujiahe;
+    // var shuzi1Id = document.getElementById("shuzi1Id");
+    // shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
+    // var suanhoujiaId = document.getElementById("suanhoujiaId");
+    // suanhoujiaId.innerText = b;
+    // var suanhoujiaheId = document.getElementById("suanhoujiaheId");
+    // suanhoujiaheId.innerHTML = suanhoujiahe;
 
 
 
