@@ -716,70 +716,70 @@ function main() {
 
 
 
-    var fengexian1Id = document.getElementById("fengexian1Id");
-    fengexian1Id.innerText = "-------------------------------------------";
+    // var fengexian1Id = document.getElementById("fengexian1Id");
+    // fengexian1Id.innerText = "-------------------------------------------";
 
 
 
-    var shihang1Id = document.getElementById("shihang1Id");
-    shihang1Id.innerText = "1： " + yi000 + er000 + san000
-        + " " + String(parseInt(yi000) + 1).charAt(String(parseInt(yi000) + 1).length - 1) + String(parseInt(er000) + 1).charAt(String(parseInt(er000) + 1).length - 1) + String(parseInt(san000) + 1).charAt(String(parseInt(san000) + 1).length - 1)
-        + " " + String(parseInt(yi000) + 2).charAt(String(parseInt(yi000) + 2).length - 1) + String(parseInt(er000) + 2).charAt(String(parseInt(er000) + 2).length - 1) + String(parseInt(san000) + 2).charAt(String(parseInt(san000) + 2).length - 1)
-        + " " + String(parseInt(yi000) + 3).charAt(String(parseInt(yi000) + 3).length - 1) + String(parseInt(er000) + 3).charAt(String(parseInt(er000) + 3).length - 1) + String(parseInt(san000) + 3).charAt(String(parseInt(san000) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang1Id");
+    // shihang1Id.innerText = "1： " + yi000 + er000 + san000
+    //     + " " + String(parseInt(yi000) + 1).charAt(String(parseInt(yi000) + 1).length - 1) + String(parseInt(er000) + 1).charAt(String(parseInt(er000) + 1).length - 1) + String(parseInt(san000) + 1).charAt(String(parseInt(san000) + 1).length - 1)
+    //     + " " + String(parseInt(yi000) + 2).charAt(String(parseInt(yi000) + 2).length - 1) + String(parseInt(er000) + 2).charAt(String(parseInt(er000) + 2).length - 1) + String(parseInt(san000) + 2).charAt(String(parseInt(san000) + 2).length - 1)
+    //     + " " + String(parseInt(yi000) + 3).charAt(String(parseInt(yi000) + 3).length - 1) + String(parseInt(er000) + 3).charAt(String(parseInt(er000) + 3).length - 1) + String(parseInt(san000) + 3).charAt(String(parseInt(san000) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang2Id");
-    shihang1Id.innerText = "2： " + yi111 + er111 + san111
-        + " " + String(parseInt(yi111) + 1).charAt(String(parseInt(yi111) + 1).length - 1) + String(parseInt(er111) + 1).charAt(String(parseInt(er111) + 1).length - 1) + String(parseInt(san111) + 1).charAt(String(parseInt(san111) + 1).length - 1)
-        + " " + String(parseInt(yi111) + 2).charAt(String(parseInt(yi111) + 2).length - 1) + String(parseInt(er111) + 2).charAt(String(parseInt(er111) + 2).length - 1) + String(parseInt(san111) + 2).charAt(String(parseInt(san111) + 2).length - 1)
-        + " " + String(parseInt(yi111) + 3).charAt(String(parseInt(yi111) + 3).length - 1) + String(parseInt(er111) + 3).charAt(String(parseInt(er111) + 3).length - 1) + String(parseInt(san111) + 3).charAt(String(parseInt(san111) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang2Id");
+    // shihang1Id.innerText = "2： " + yi111 + er111 + san111
+    //     + " " + String(parseInt(yi111) + 1).charAt(String(parseInt(yi111) + 1).length - 1) + String(parseInt(er111) + 1).charAt(String(parseInt(er111) + 1).length - 1) + String(parseInt(san111) + 1).charAt(String(parseInt(san111) + 1).length - 1)
+    //     + " " + String(parseInt(yi111) + 2).charAt(String(parseInt(yi111) + 2).length - 1) + String(parseInt(er111) + 2).charAt(String(parseInt(er111) + 2).length - 1) + String(parseInt(san111) + 2).charAt(String(parseInt(san111) + 2).length - 1)
+    //     + " " + String(parseInt(yi111) + 3).charAt(String(parseInt(yi111) + 3).length - 1) + String(parseInt(er111) + 3).charAt(String(parseInt(er111) + 3).length - 1) + String(parseInt(san111) + 3).charAt(String(parseInt(san111) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang3Id");
-    shihang1Id.innerText = "3： " + yi222 + er222 + san222
-        + " " + String(parseInt(yi222) + 1).charAt(String(parseInt(yi222) + 1).length - 1) + String(parseInt(er222) + 1).charAt(String(parseInt(er222) + 1).length - 1) + String(parseInt(san222) + 1).charAt(String(parseInt(san222) + 1).length - 1)
-        + " " + String(parseInt(yi222) + 2).charAt(String(parseInt(yi222) + 2).length - 1) + String(parseInt(er222) + 2).charAt(String(parseInt(er222) + 2).length - 1) + String(parseInt(san222) + 2).charAt(String(parseInt(san222) + 2).length - 1)
-        + " " + String(parseInt(yi222) + 3).charAt(String(parseInt(yi222) + 3).length - 1) + String(parseInt(er222) + 3).charAt(String(parseInt(er222) + 3).length - 1) + String(parseInt(san222) + 3).charAt(String(parseInt(san222) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang3Id");
+    // shihang1Id.innerText = "3： " + yi222 + er222 + san222
+    //     + " " + String(parseInt(yi222) + 1).charAt(String(parseInt(yi222) + 1).length - 1) + String(parseInt(er222) + 1).charAt(String(parseInt(er222) + 1).length - 1) + String(parseInt(san222) + 1).charAt(String(parseInt(san222) + 1).length - 1)
+    //     + " " + String(parseInt(yi222) + 2).charAt(String(parseInt(yi222) + 2).length - 1) + String(parseInt(er222) + 2).charAt(String(parseInt(er222) + 2).length - 1) + String(parseInt(san222) + 2).charAt(String(parseInt(san222) + 2).length - 1)
+    //     + " " + String(parseInt(yi222) + 3).charAt(String(parseInt(yi222) + 3).length - 1) + String(parseInt(er222) + 3).charAt(String(parseInt(er222) + 3).length - 1) + String(parseInt(san222) + 3).charAt(String(parseInt(san222) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang4Id");
-    shihang1Id.innerText = "4： " + yi333 + er333 + san333
-        + " " + String(parseInt(yi333) + 1).charAt(String(parseInt(yi333) + 1).length - 1) + String(parseInt(er333) + 1).charAt(String(parseInt(er333) + 1).length - 1) + String(parseInt(san333) + 1).charAt(String(parseInt(san333) + 1).length - 1)
-        + " " + String(parseInt(yi333) + 2).charAt(String(parseInt(yi333) + 2).length - 1) + String(parseInt(er333) + 2).charAt(String(parseInt(er333) + 2).length - 1) + String(parseInt(san333) + 2).charAt(String(parseInt(san333) + 2).length - 1)
-        + " " + String(parseInt(yi333) + 3).charAt(String(parseInt(yi333) + 3).length - 1) + String(parseInt(er333) + 3).charAt(String(parseInt(er333) + 3).length - 1) + String(parseInt(san333) + 3).charAt(String(parseInt(san333) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang4Id");
+    // shihang1Id.innerText = "4： " + yi333 + er333 + san333
+    //     + " " + String(parseInt(yi333) + 1).charAt(String(parseInt(yi333) + 1).length - 1) + String(parseInt(er333) + 1).charAt(String(parseInt(er333) + 1).length - 1) + String(parseInt(san333) + 1).charAt(String(parseInt(san333) + 1).length - 1)
+    //     + " " + String(parseInt(yi333) + 2).charAt(String(parseInt(yi333) + 2).length - 1) + String(parseInt(er333) + 2).charAt(String(parseInt(er333) + 2).length - 1) + String(parseInt(san333) + 2).charAt(String(parseInt(san333) + 2).length - 1)
+    //     + " " + String(parseInt(yi333) + 3).charAt(String(parseInt(yi333) + 3).length - 1) + String(parseInt(er333) + 3).charAt(String(parseInt(er333) + 3).length - 1) + String(parseInt(san333) + 3).charAt(String(parseInt(san333) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang5Id");
-    shihang1Id.innerText = "5： " + yi444 + er444 + san444
-        + " " + String(parseInt(yi444) + 1).charAt(String(parseInt(yi444) + 1).length - 1) + String(parseInt(er444) + 1).charAt(String(parseInt(er444) + 1).length - 1) + String(parseInt(san444) + 1).charAt(String(parseInt(san444) + 1).length - 1)
-        + " " + String(parseInt(yi444) + 2).charAt(String(parseInt(yi444) + 2).length - 1) + String(parseInt(er444) + 2).charAt(String(parseInt(er444) + 2).length - 1) + String(parseInt(san444) + 2).charAt(String(parseInt(san444) + 2).length - 1)
-        + " " + String(parseInt(yi444) + 3).charAt(String(parseInt(yi444) + 3).length - 1) + String(parseInt(er444) + 3).charAt(String(parseInt(er444) + 3).length - 1) + String(parseInt(san444) + 3).charAt(String(parseInt(san444) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang5Id");
+    // shihang1Id.innerText = "5： " + yi444 + er444 + san444
+    //     + " " + String(parseInt(yi444) + 1).charAt(String(parseInt(yi444) + 1).length - 1) + String(parseInt(er444) + 1).charAt(String(parseInt(er444) + 1).length - 1) + String(parseInt(san444) + 1).charAt(String(parseInt(san444) + 1).length - 1)
+    //     + " " + String(parseInt(yi444) + 2).charAt(String(parseInt(yi444) + 2).length - 1) + String(parseInt(er444) + 2).charAt(String(parseInt(er444) + 2).length - 1) + String(parseInt(san444) + 2).charAt(String(parseInt(san444) + 2).length - 1)
+    //     + " " + String(parseInt(yi444) + 3).charAt(String(parseInt(yi444) + 3).length - 1) + String(parseInt(er444) + 3).charAt(String(parseInt(er444) + 3).length - 1) + String(parseInt(san444) + 3).charAt(String(parseInt(san444) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang6Id");
-    shihang1Id.innerText = "6： " + yi555 + er555 + san555
-        + " " + String(parseInt(yi555) + 1).charAt(String(parseInt(yi555) + 1).length - 1) + String(parseInt(er555) + 1).charAt(String(parseInt(er555) + 1).length - 1) + String(parseInt(san555) + 1).charAt(String(parseInt(san555) + 1).length - 1)
-        + " " + String(parseInt(yi555) + 2).charAt(String(parseInt(yi555) + 2).length - 1) + String(parseInt(er555) + 2).charAt(String(parseInt(er555) + 2).length - 1) + String(parseInt(san555) + 2).charAt(String(parseInt(san555) + 2).length - 1)
-        + " " + String(parseInt(yi555) + 3).charAt(String(parseInt(yi555) + 3).length - 1) + String(parseInt(er555) + 3).charAt(String(parseInt(er555) + 3).length - 1) + String(parseInt(san555) + 3).charAt(String(parseInt(san555) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang6Id");
+    // shihang1Id.innerText = "6： " + yi555 + er555 + san555
+    //     + " " + String(parseInt(yi555) + 1).charAt(String(parseInt(yi555) + 1).length - 1) + String(parseInt(er555) + 1).charAt(String(parseInt(er555) + 1).length - 1) + String(parseInt(san555) + 1).charAt(String(parseInt(san555) + 1).length - 1)
+    //     + " " + String(parseInt(yi555) + 2).charAt(String(parseInt(yi555) + 2).length - 1) + String(parseInt(er555) + 2).charAt(String(parseInt(er555) + 2).length - 1) + String(parseInt(san555) + 2).charAt(String(parseInt(san555) + 2).length - 1)
+    //     + " " + String(parseInt(yi555) + 3).charAt(String(parseInt(yi555) + 3).length - 1) + String(parseInt(er555) + 3).charAt(String(parseInt(er555) + 3).length - 1) + String(parseInt(san555) + 3).charAt(String(parseInt(san555) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang7Id");
-    shihang1Id.innerText = "7： " + yi666 + er666 + san666
-        + " " + String(parseInt(yi666) + 1).charAt(String(parseInt(yi666) + 1).length - 1) + String(parseInt(er666) + 1).charAt(String(parseInt(er666) + 1).length - 1) + String(parseInt(san666) + 1).charAt(String(parseInt(san666) + 1).length - 1)
-        + " " + String(parseInt(yi666) + 2).charAt(String(parseInt(yi666) + 2).length - 1) + String(parseInt(er666) + 2).charAt(String(parseInt(er666) + 2).length - 1) + String(parseInt(san666) + 2).charAt(String(parseInt(san666) + 2).length - 1)
-        + " " + String(parseInt(yi666) + 3).charAt(String(parseInt(yi666) + 3).length - 1) + String(parseInt(er666) + 3).charAt(String(parseInt(er666) + 3).length - 1) + String(parseInt(san666) + 3).charAt(String(parseInt(san666) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang7Id");
+    // shihang1Id.innerText = "7： " + yi666 + er666 + san666
+    //     + " " + String(parseInt(yi666) + 1).charAt(String(parseInt(yi666) + 1).length - 1) + String(parseInt(er666) + 1).charAt(String(parseInt(er666) + 1).length - 1) + String(parseInt(san666) + 1).charAt(String(parseInt(san666) + 1).length - 1)
+    //     + " " + String(parseInt(yi666) + 2).charAt(String(parseInt(yi666) + 2).length - 1) + String(parseInt(er666) + 2).charAt(String(parseInt(er666) + 2).length - 1) + String(parseInt(san666) + 2).charAt(String(parseInt(san666) + 2).length - 1)
+    //     + " " + String(parseInt(yi666) + 3).charAt(String(parseInt(yi666) + 3).length - 1) + String(parseInt(er666) + 3).charAt(String(parseInt(er666) + 3).length - 1) + String(parseInt(san666) + 3).charAt(String(parseInt(san666) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang8Id");
-    shihang1Id.innerText = "8： " + yi777 + er777 + san777
-        + " " + String(parseInt(yi777) + 1).charAt(String(parseInt(yi777) + 1).length - 1) + String(parseInt(er777) + 1).charAt(String(parseInt(er777) + 1).length - 1) + String(parseInt(san777) + 1).charAt(String(parseInt(san777) + 1).length - 1)
-        + " " + String(parseInt(yi777) + 2).charAt(String(parseInt(yi777) + 2).length - 1) + String(parseInt(er777) + 2).charAt(String(parseInt(er777) + 2).length - 1) + String(parseInt(san777) + 2).charAt(String(parseInt(san777) + 2).length - 1)
-        + " " + String(parseInt(yi777) + 3).charAt(String(parseInt(yi777) + 3).length - 1) + String(parseInt(er777) + 3).charAt(String(parseInt(er777) + 3).length - 1) + String(parseInt(san777) + 3).charAt(String(parseInt(san777) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang8Id");
+    // shihang1Id.innerText = "8： " + yi777 + er777 + san777
+    //     + " " + String(parseInt(yi777) + 1).charAt(String(parseInt(yi777) + 1).length - 1) + String(parseInt(er777) + 1).charAt(String(parseInt(er777) + 1).length - 1) + String(parseInt(san777) + 1).charAt(String(parseInt(san777) + 1).length - 1)
+    //     + " " + String(parseInt(yi777) + 2).charAt(String(parseInt(yi777) + 2).length - 1) + String(parseInt(er777) + 2).charAt(String(parseInt(er777) + 2).length - 1) + String(parseInt(san777) + 2).charAt(String(parseInt(san777) + 2).length - 1)
+    //     + " " + String(parseInt(yi777) + 3).charAt(String(parseInt(yi777) + 3).length - 1) + String(parseInt(er777) + 3).charAt(String(parseInt(er777) + 3).length - 1) + String(parseInt(san777) + 3).charAt(String(parseInt(san777) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang9Id");
-    shihang1Id.innerText = "9： " + yi888 + er888 + san888
-        + " " + String(parseInt(yi888) + 1).charAt(String(parseInt(yi888) + 1).length - 1) + String(parseInt(er888) + 1).charAt(String(parseInt(er888) + 1).length - 1) + String(parseInt(san888) + 1).charAt(String(parseInt(san888) + 1).length - 1)
-        + " " + String(parseInt(yi888) + 2).charAt(String(parseInt(yi888) + 2).length - 1) + String(parseInt(er888) + 2).charAt(String(parseInt(er888) + 2).length - 1) + String(parseInt(san888) + 2).charAt(String(parseInt(san888) + 2).length - 1)
-        + " " + String(parseInt(yi888) + 3).charAt(String(parseInt(yi888) + 3).length - 1) + String(parseInt(er888) + 3).charAt(String(parseInt(er888) + 3).length - 1) + String(parseInt(san888) + 3).charAt(String(parseInt(san888) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang9Id");
+    // shihang1Id.innerText = "9： " + yi888 + er888 + san888
+    //     + " " + String(parseInt(yi888) + 1).charAt(String(parseInt(yi888) + 1).length - 1) + String(parseInt(er888) + 1).charAt(String(parseInt(er888) + 1).length - 1) + String(parseInt(san888) + 1).charAt(String(parseInt(san888) + 1).length - 1)
+    //     + " " + String(parseInt(yi888) + 2).charAt(String(parseInt(yi888) + 2).length - 1) + String(parseInt(er888) + 2).charAt(String(parseInt(er888) + 2).length - 1) + String(parseInt(san888) + 2).charAt(String(parseInt(san888) + 2).length - 1)
+    //     + " " + String(parseInt(yi888) + 3).charAt(String(parseInt(yi888) + 3).length - 1) + String(parseInt(er888) + 3).charAt(String(parseInt(er888) + 3).length - 1) + String(parseInt(san888) + 3).charAt(String(parseInt(san888) + 3).length - 1);
 
-    var shihang1Id = document.getElementById("shihang0Id");
-    shihang1Id.innerText = "0： " + yi999 + er999 + san999
-        + " " + String(parseInt(yi999) + 1).charAt(String(parseInt(yi999) + 1).length - 1) + String(parseInt(er999) + 1).charAt(String(parseInt(er999) + 1).length - 1) + String(parseInt(san999) + 1).charAt(String(parseInt(san999) + 1).length - 1)
-        + " " + String(parseInt(yi999) + 2).charAt(String(parseInt(yi999) + 2).length - 1) + String(parseInt(er999) + 2).charAt(String(parseInt(er999) + 2).length - 1) + String(parseInt(san999) + 2).charAt(String(parseInt(san999) + 2).length - 1)
-        + " " + String(parseInt(yi999) + 3).charAt(String(parseInt(yi999) + 3).length - 1) + String(parseInt(er999) + 3).charAt(String(parseInt(er999) + 3).length - 1) + String(parseInt(san999) + 3).charAt(String(parseInt(san999) + 3).length - 1);
+    // var shihang1Id = document.getElementById("shihang0Id");
+    // shihang1Id.innerText = "0： " + yi999 + er999 + san999
+    //     + " " + String(parseInt(yi999) + 1).charAt(String(parseInt(yi999) + 1).length - 1) + String(parseInt(er999) + 1).charAt(String(parseInt(er999) + 1).length - 1) + String(parseInt(san999) + 1).charAt(String(parseInt(san999) + 1).length - 1)
+    //     + " " + String(parseInt(yi999) + 2).charAt(String(parseInt(yi999) + 2).length - 1) + String(parseInt(er999) + 2).charAt(String(parseInt(er999) + 2).length - 1) + String(parseInt(san999) + 2).charAt(String(parseInt(san999) + 2).length - 1)
+    //     + " " + String(parseInt(yi999) + 3).charAt(String(parseInt(yi999) + 3).length - 1) + String(parseInt(er999) + 3).charAt(String(parseInt(er999) + 3).length - 1) + String(parseInt(san999) + 3).charAt(String(parseInt(san999) + 3).length - 1);
 
     // var shuzi2Id = document.getElementById("shuzi2Id");
     // shuzi2Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
