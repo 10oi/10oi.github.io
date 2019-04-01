@@ -1,8 +1,12 @@
-function amain() {
+function tempmain() {
     // 输入框
     var input1 = document.getElementById("input1");
     var input2 = document.getElementById("input2");
     var input3 = document.getElementById("input3");
+
+
+
+
 
 
 
@@ -36,6 +40,16 @@ function amain() {
         // textarea1.select();
         // document.execCommand("Copy");
     }
+
+    // 概率计算
+    document.getElementById("btn3").onclick = function () {
+        var input4 = document.getElementById("input4");
+        var input5 = document.getElementById("input5");
+
+        var jieguoSpanId = document.getElementById("jieguoSpanId");
+
+        jieguoSpanId.innerText = "结果："+ parseInt(input4.value) / parseInt(input5.value);
+    }
 }
 
 
@@ -58,7 +72,7 @@ window.onload = interval = setInterval(
 window.onload = setInterval(
     function () {
         if (input1.value != "" && input2.value != "" && input3.value != "") {
-            amain();
+            tempmain();
         }
     }, 200);
 
