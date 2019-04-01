@@ -753,6 +753,13 @@ function main() {
                 }
                 if (input2.value != "") {
                     input3.focus();
+                    interval2 = setInterval(
+                        function () {
+                            if (input1.value != "" && input2.value != "" && input3.value != "") {
+                                main();
+                                clearInterval(interval2);
+                            }
+                        }, 200);
                     clearInterval(interval1);
                 }
             }, 100);
@@ -795,21 +802,22 @@ window.onload = interval = setInterval(
     }, 200);
 
 // 初始化计算
-window.onload = setInterval(
+window.onload = interval1 = setInterval(
     function () {
         if (input1.value != "" && input2.value != "" && input3.value != "") {
             main();
+            clearInterval(interval1);
         }
     }, 200);
 
 // 初始化判断焦点
-window.onload = interval1 = setInterval(
+window.onload = interval2 = setInterval(
     function () {
         if (input1.value != "") {
             input2.focus();
         }
         if (input2.value != "") {
             input3.focus();
-            clearInterval(interval1);
+            clearInterval(interval2);
         }
     }, 100);
