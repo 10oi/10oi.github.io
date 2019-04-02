@@ -1,0 +1,31 @@
+body {
+    background-color: #222;
+    font-size: 14px;
+}
+
+span {
+    color: rgb(255, 165, 61);
+}
+
+input {
+    width: 66px;
+    height: 28px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 165, 61);
+    background-color: #222;
+    border: 1px solid rgb(255, 165, 61);
+    border-radius: 4px;
+    margin: 6px 4px 0 0;
+}
+
+button {
+    width: 100px;
+    height: 28px;
+    font-size: 16px;
+    color: rgb(255, 165, 61);
+    background-color: #222;
+    border: 1px solid rgb(255, 165, 61);
+    border-radius: 4px;
+    margin: 6px 0 0 10px;
+}

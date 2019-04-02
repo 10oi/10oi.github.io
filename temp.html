@@ -8,31 +8,90 @@
     <title>时来运转 - 临时</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/temp.css">
     <script src="js/temp.js"></script>
 </head>
 
 <body>
-    <span>号码：</span>
-    <input id="input1" type="tel" maxlength="1">
-    <input id="input2" type="tel" maxlength="1">
-    <input id="input3" type="tel" maxlength="1">
+    <span>-------------- 概率计算 --------------</span>
     <br>
-
-    <button id="btn1">清除</button>
-    <button id="btn2">复制</button>
-    <br>
-
-    <span>------- 概率计算 -------</span>
-    <br>
-    <span>出现次数：</span>
-    <input id="input4" type="tel" maxlength="3">
-    <span>总期数：</span>
-    <input id="input5" type="tel" maxlength="3">
+    <span>出次：</span>
+    <input id="input1" type="tel" maxlength="3">
+    <span>期数：</span>
+    <input id="input2" type="tel" maxlength="3">
     <span id="jieguoSpanId"></span>
+
+    <button id="btn1">计算</button>
     <br>
 
-    <button id="btn3">计算</button>
+    <span>-------------- 杀号胜率 --------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>组三，不同两号相乘，取积尾，杀，对0尾和5尾的误判较多。</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>(跨度 / 3) + 期尾 = 杀（四舍五入取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>取近两期的和尾值相加（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>和尾加跨度（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>取近两期跨度相加（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>和值尾</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>和值尾 * 3（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>和值尾 * 4（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>和值尾 * 5（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>取近两期跨度相加（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <br>
+    <span>期数：0 胜：0 负：0 胜率：0% | </span>
+    <span>取近两期跨度相加（取尾）</span>
+    <br>
+    <span>----------------------------------------</span>
+    <!-- 百位 - 个位（取尾）
+    百位 - 十位（取尾）
+    个位 - 十位（取尾）
+    个位 - 百位（取尾）
+    期号
+    百位 + 十位（取尾）
+    和数 / 8的余数的第一位杀下期一码
+    和尾 * 2(取尾)
+    个位 * 个位
+    个位 * 十位
+    百位 * 百位 -->
 </body>
 
 </html>
