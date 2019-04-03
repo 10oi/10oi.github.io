@@ -619,15 +619,36 @@ function main() {
     // 号码
     var haoma = input1.value + input2.value + input3.value;
 
-    // // 跨度
-    // var kuadu = 0;
-    // kua12 = String(parseInt(input1.value) - parseInt(input2.value)).charAt(String(parseInt(input1.value) - parseInt(input2.value)).length - 1);
-    // kua23 = String(parseInt(input2.value) - parseInt(input3.value)).charAt(String(parseInt(input2.value) - parseInt(input3.value)).length - 1);
-    // kua31 = String(parseInt(input3.value) - parseInt(input1.value)).charAt(String(parseInt(input3.value) - parseInt(input1.value)).length - 1);
-
+    // 跨度
+    var kuadu = 0;
+    kua12 = String(parseInt(input1.value) - parseInt(input2.value)).charAt(String(parseInt(input1.value) - parseInt(input2.value)).length - 1);
+    kua23 = String(parseInt(input2.value) - parseInt(input3.value)).charAt(String(parseInt(input2.value) - parseInt(input3.value)).length - 1);
+    kua31 = String(parseInt(input3.value) - parseInt(input1.value)).charAt(String(parseInt(input3.value) - parseInt(input1.value)).length - 1);
+    if (kua12 >= kua23 && kua12 >= kua31) {
+        kuadu = kua12;
+    }
+    if (kua23 >= kua12 && kua23 >= kua31) {
+        kuadu = kua23;
+    }
+    if (kua31 >= kua12 && kua31 >= kua23) {
+        kuadu = kua31;
+    }
+    if (kua12 == kua23 && kua23 == kua31) {
+        kuadu = kua12;
+    }
 
     // 和尾
     var hewei = String(parseInt(input1.value) + parseInt(input2.value) + parseInt(input3.value)).charAt(String(parseInt(input1.value) + parseInt(input2.value) + parseInt(input3.value)).length - 1);
+
+
+
+
+
+
+
+
+
+
 
     // var zhiliebiao1 = zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9;
     // var chongliebiao1 = chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9;
@@ -698,7 +719,7 @@ function main() {
     huanhangId.innerText = "\n";
 
     var haomaId = document.getElementById("haomaId");
-    haomaId.innerText = "号码：" + haoma + " 和尾：" + hewei;
+    haomaId.innerText = "号码：" + haoma + " 跨：" + kuadu + " 和尾：" + hewei;
 
     // var zhijiejiaId = document.getElementById("zhijiejiaId");
     // zhijiejiaId.innerText = a;
