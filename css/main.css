@@ -36,21 +36,22 @@ p {
     color: rgb(109, 0, 0);
 } */
 
-.fengexianClass {
+/* .fengexianClass {
     color: rgb(255, 161, 235);
-}
+} */
 
-.suanhoujiaClass {
+/* .suanhoujiaClass {
     color: rgb(255, 122, 122);
-}
+} */
 
 .jianClass {
     color: rgb(92, 252, 185);
 }
 
+/* 
 .shihangClass {
     color: rgb(68, 249, 255);
-}
+} */
 
 span {
     color: rgb(255, 165, 61);
@@ -80,9 +81,14 @@ button {
 }
 
 a {
-    width: 100px;
+    width: 128px;
+    height: 28px;
     color: rgb(255, 165, 61);
-    margin: 6px 0 0 20px;
+    border: 1px solid rgb(255, 165, 61);
+    border-radius: 2px;
+    text-align: center;
+    margin: 6px 0 0 60px;
+    padding-top: 6px;
     text-decoration: none;
     display: block;
 }
