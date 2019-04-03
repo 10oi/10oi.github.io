@@ -80,6 +80,7 @@ button {
 }
 
 a {
+    width: 100px;
     color: rgb(255, 165, 61);
     margin: 6px 0 0 20px;
     text-decoration: none;

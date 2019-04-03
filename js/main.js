@@ -616,8 +616,18 @@ function main() {
 
 
 
-    // 内容
+    // 号码
     var haoma = input1.value + input2.value + input3.value;
+
+    // // 跨度
+    // var kuadu = 0;
+    // kua12 = String(parseInt(input1.value) - parseInt(input2.value)).charAt(String(parseInt(input1.value) - parseInt(input2.value)).length - 1);
+    // kua23 = String(parseInt(input2.value) - parseInt(input3.value)).charAt(String(parseInt(input2.value) - parseInt(input3.value)).length - 1);
+    // kua31 = String(parseInt(input3.value) - parseInt(input1.value)).charAt(String(parseInt(input3.value) - parseInt(input1.value)).length - 1);
+
+
+    // 和尾
+    var hewei = String(parseInt(input1.value) + parseInt(input2.value) + parseInt(input3.value)).charAt(String(parseInt(input1.value) + parseInt(input2.value) + parseInt(input3.value)).length - 1);
 
     // var zhiliebiao1 = zhi0 + " " + zhi1 + " " + zhi2 + " " + zhi3 + " " + zhi4 + " " + zhi5 + " " + zhi6 + " " + zhi7 + " " + zhi8 + " " + zhi9;
     // var chongliebiao1 = chong0 + " " + chong1 + " " + chong2 + " " + chong3 + " " + chong4 + " " + chong5 + " " + chong6 + " " + chong7 + " " + chong8 + " " + chong9;
@@ -688,7 +698,7 @@ function main() {
     huanhangId.innerText = "\n";
 
     var haomaId = document.getElementById("haomaId");
-    haomaId.innerText = "号码：" + haoma;
+    haomaId.innerText = "号码：" + haoma + " 和尾：" + hewei;
 
     // var zhijiejiaId = document.getElementById("zhijiejiaId");
     // zhijiejiaId.innerText = a;
@@ -701,12 +711,13 @@ function main() {
     jianheId.innerHTML = jianhe;
 
 
-
+    // 分割线
     // var fengexianId = document.getElementById("fengexianId");
     // fengexianId.innerText = "-------------------------------------------";
 
 
 
+    // 数字
     // var shuzi1Id = document.getElementById("shuzi1Id");
     // shuzi1Id.innerHTML = "&nbsp;&nbsp;1" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0";
     // var suanhoujiaId = document.getElementById("suanhoujiaId");
@@ -715,7 +726,7 @@ function main() {
     // suanhoujiaheId.innerHTML = suanhoujiahe;
 
 
-
+    // 分割线
     // var fengexian1Id = document.getElementById("fengexian1Id");
     // fengexian1Id.innerText = "-------------------------------------------";
 
@@ -800,59 +811,6 @@ function main() {
 
     // "\n" + "值 " + zhiliebiao2 + 
     // "\n" + "重 " + chongliebiao2 +
-
-
-
-
-
-
-
-
-
-
-    // 清除输入数字
-    document.getElementById("btn1").onclick = function () {
-        input1.value = "";
-        input2.value = "";
-        input3.value = "";
-        input1.focus();
-        interval1 = setInterval(
-            function () {
-                if (input1.value != "") {
-                    input2.focus();
-                }
-                if (input2.value != "") {
-                    input3.focus();
-                    interval2 = setInterval(
-                        function () {
-                            if (input1.value != "" && input2.value != "" && input3.value != "") {
-                                main();
-                                clearInterval(interval2);
-                            }
-                        }, 200);
-                    clearInterval(interval1);
-                }
-            }, 100);
-    }
-
-    // 复制
-    document.getElementById("btn2").onclick = function () {
-        var divText = document.getElementById("div");
-        if (document.body.createTextRange) {
-            var range = document.body.createTextRange();
-            range.moveToElementText(divText);
-            range.select();
-        } else if (window.getSelection) {
-            var selection = window.getSelection();
-            var range = document.createRange();
-            range.selectNodeContents(divText);
-            selection.removeAllRanges();
-            selection.addRange(range);
-        } else {
-            alert("none");
-        }
-        document.execCommand('Copy', 'false', null);
-    }
 }
 
 
@@ -878,7 +836,7 @@ window.onload = interval1 = setInterval(
             main();
             clearInterval(interval1);
         }
-    }, 200);
+    }, 300);
 
 // 初始化判断焦点
 window.onload = interval2 = setInterval(
@@ -891,3 +849,63 @@ window.onload = interval2 = setInterval(
             clearInterval(interval2);
         }
     }, 100);
+
+
+
+
+
+
+
+// 功能
+window.onload = function () {
+    clearInput();
+    copyP();
+}
+
+// 清除输入数字
+function clearInput() {
+    document.getElementById("btn1").onclick = function () {
+        input1.value = "";
+        input2.value = "";
+        input3.value = "";
+        input1.focus();
+        interval1 = setInterval(
+            function () {
+                if (input1.value != "") {
+                    input2.focus();
+                }
+                if (input2.value != "") {
+                    input3.focus();
+                    interval2 = setInterval(
+                        function () {
+                            if (input1.value != "" && input2.value != "" && input3.value != "") {
+                                main();
+                                clearInterval(interval2);
+                            }
+                        }, 200);
+                    clearInterval(interval1);
+                }
+            }, 100);
+    }
+}
+
+// 复制
+function copyP() {
+    document.getElementById("btn2").onclick = function () {
+        var divText = document.getElementById("div");
+        if (document.body.createTextRange) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(divText);
+            range.select();
+        } else if (window.getSelection) {
+            var selection = window.getSelection();
+            var range = document.createRange();
+            range.selectNodeContents(divText);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        } else {
+            alert("none");
+        }
+        document.execCommand('Copy', 'false', null);
+    }
+}
